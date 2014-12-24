@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "compass/reset";
+@import "georgelynch/utils";
+
+
+$home_product_width:789;
+$home_product_height:387;
+$home_product_left:248;
+$home_product_top:351;
+
+$home_title_width:318;
+$home_title_height:319;
+$home_title_left:481;
+$home_title_top:117;
+
+$home_play_game_1up_width:96;
+$home_play_game_1up_height:126;
+$home_play_game_1up_left:370;
+$home_play_game_1up_top:215;
+
+$home_play_game_2up_width:99;
+$home_play_game_2up_height:122;
+$home_play_game_2up_left:818;
+$home_play_game_2up_top:219;
+
+$home_SP_width:213;
+$home_SP_height:78;
+$home_SP_left:157;
+$home_SP_top:458;
+
+#home {
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    overflow: auto;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+    
+    
+    
+    #product {
+        @include customDive($home_product_left,$home_product_top,$home_product_width,$home_product_height);
+    }
+    #title {
+        @include customDive($home_title_left,$home_title_top,$home_title_width,$home_title_height);
+    }
+    #play_game_1up {
+        cursor: pointer;
+        @include customDive($home_play_game_1up_left,$home_play_game_1up_top,$home_play_game_1up_width,$home_play_game_1up_height);
+    }
+    #play_game_2up {
+        cursor: pointer;
+        @include customDive($home_play_game_2up_left,$home_play_game_2up_top,$home_play_game_2up_width,$home_play_game_2up_height);
+    }
+    #SP {
+        @include customDive($home_SP_left,$home_SP_top,$home_SP_width,$home_SP_height);
+    }
+}
+

@@ -1,0 +1,106 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+$game_1up_start_title_width:219;
+$game_1up_start_title_height:167;
+$game_1up_start_title_left:521;
+$game_1up_start_title_top:121;
+$game_1up_start_use_width:499;
+$game_1up_start_use_height:42;
+$game_1up_start_use_left:382;
+$game_1up_start_use_top:323;
+$game_1up_start_step1_width:187;
+$game_1up_start_step1_height:210;
+$game_1up_start_step1_left:317;
+$game_1up_start_step1_top:416;
+$game_1up_start_step2_width:187;
+$game_1up_start_step2_height:210;
+$game_1up_start_step2_left:535;
+$game_1up_start_step2_top:416;
+$game_1up_start_step3_width:187;
+$game_1up_start_step3_height:210;
+$game_1up_start_step3_left:753;
+$game_1up_start_step3_top:416;
+$game_1up_start_login_fb_width:201;
+$game_1up_start_login_fb_height:37;
+$game_1up_start_login_fb_left:529;
+$game_1up_start_login_fb_top:647;
+$game_1up_start_use_qrcode_width:330;
+$game_1up_start_use_qrcode_height:35;
+$game_1up_start_use_qrcode_left:463;
+$game_1up_start_use_qrcode_top:315;
+$game_1up_start_cycle_width:329;
+$game_1up_start_cycle_height:329;
+$game_1up_start_cycle_left:463;
+$game_1up_start_cycle_top:361;
+$game_1up_start_qrcode_container_width:227;
+$game_1up_start_qrcode_container_height:227;
+$game_1up_start_qrcode_container_left:514;
+$game_1up_start_qrcode_container_top:412;
+#game_1up_start {
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    overflow: auto;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+
+    #title {
+        @include customDive($game_1up_start_title_left,$game_1up_start_title_top,$game_1up_start_title_width,$game_1up_start_title_height);
+    }
+    #use {
+        @include customDive($game_1up_start_use_left,$game_1up_start_use_top,$game_1up_start_use_width,$game_1up_start_use_height);
+    }
+    #step1 {
+        @include customDive($game_1up_start_step1_left,$game_1up_start_step1_top,$game_1up_start_step1_width,$game_1up_start_step1_height);
+    }
+    #step2 {
+        @include customDive($game_1up_start_step2_left,$game_1up_start_step2_top,$game_1up_start_step2_width,$game_1up_start_step2_height);
+    }
+    #step3 {
+        @include customDive($game_1up_start_step3_left,$game_1up_start_step3_top,$game_1up_start_step3_width,$game_1up_start_step3_height);
+    }
+    #login_fb {
+        cursor: pointer;
+        @include customDive($game_1up_start_login_fb_left,$game_1up_start_login_fb_top,$game_1up_start_login_fb_width,$game_1up_start_login_fb_height);
+    }
+    #use_qrcode {
+        @include customDive($game_1up_start_use_qrcode_left,$game_1up_start_use_qrcode_top,$game_1up_start_use_qrcode_width,$game_1up_start_use_qrcode_height);
+    }
+    #cycle {
+        @include customDive($game_1up_start_cycle_left,$game_1up_start_cycle_top,$game_1up_start_cycle_width,$game_1up_start_cycle_height);
+    }
+    #qrcode_container {
+        
+        @include customDive($game_1up_start_qrcode_container_left,$game_1up_start_qrcode_container_top,$game_1up_start_qrcode_container_width,$game_1up_start_qrcode_container_height);
+        top: 430px;
+        left: 528px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+

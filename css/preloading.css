@@ -1,0 +1,17 @@
+/* line 2, ../sass/preloading.scss */
+#preloading {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #880303; }
+  /* line 9, ../sass/preloading.scss */
+  #preloading #loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: -17px;
+    margin-left: -17px; }

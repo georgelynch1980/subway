@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*
+範例
+.title1 {
+    @include bp(area-max) {
+        content:'max';
+        font-size: 72px;
+    }
+    @include bp(area-301) {
+        content:'小於1280px';
+        font-size: 48px;
+    }
+    @include bp(area-201) {
+        content:'小於980px';
+        font-size: 36px;
+    }
+    @include bp(area-101) {
+        content:'小於767px';
+        font-size: 20px;
+    }
+    @include bp(area-001) {
+        content:'小於480px';
+        font-size: 12px;
+    }
+}
+*/
+/* line 31, ../sass/home.scss */
+#home {
+  position: absolute;
+  width: 1280px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -640px;
+  margin-top: -415px;
+  overflow: auto; }
+  @media screen and (max-width: 1048px) {
+    /* line 31, ../sass/home.scss */
+    #home {
+      position: absolute;
+      left: -116px;
+      margin-left: 0px; } }
+  @media screen and (max-height: 717px) {
+    /* line 31, ../sass/home.scss */
+    #home {
+      position: absolute;
+      top: -56px;
+      margin-top: 0px;
+      overflow: hidden; } }
+  /* line 56, ../sass/home.scss */
+  #home #product {
+    position: absolute;
+    overflow: hidden;
+    top: 351px;
+    left: 248px;
+    width: 789px;
+    height: 387px; }
+  /* line 59, ../sass/home.scss */
+  #home #title {
+    position: absolute;
+    overflow: hidden;
+    top: 117px;
+    left: 481px;
+    width: 318px;
+    height: 319px; }
+  /* line 62, ../sass/home.scss */
+  #home #play_game_1up {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    top: 215px;
+    left: 370px;
+    width: 96px;
+    height: 126px; }
+  /* line 66, ../sass/home.scss */
+  #home #play_game_2up {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    top: 219px;
+    left: 818px;
+    width: 99px;
+    height: 122px; }
+  /* line 70, ../sass/home.scss */
+  #home #SP {
+    position: absolute;
+    overflow: hidden;
+    top: 458px;
+    left: 157px;
+    width: 213px;
+    height: 78px; }

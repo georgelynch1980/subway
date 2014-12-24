@@ -1,0 +1,585 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+$top10_bg_2up_width:421;
+$top10_bg_2up_height:390;
+$top10_bg_2up_left:646;
+$top10_bg_2up_top:285;
+
+$top10_img_2up_top1_width:40;
+$top10_img_2up_top1_height:40;
+$top10_img_2up_top1_left:707;
+$top10_img_2up_top1_top:344;
+
+$top10_number_2up_top1_width:100;
+$top10_number_2up_top1_height:17;
+$top10_number_2up_top1_left:764;
+$top10_number_2up_top1_top:366;
+
+$top10_name_2up_top1_width:100;
+$top10_name_2up_top1_height:16;
+$top10_name_2up_top1_left:762;
+$top10_name_2up_top1_top:347;
+
+$top10_img_2up_top2_width:40;
+$top10_img_2up_top2_height:40;
+$top10_img_2up_top2_left:707;
+$top10_img_2up_top2_top:413;
+
+$top10_number_2up_top2_width:100;
+$top10_number_2up_top2_height:17;
+$top10_number_2up_top2_left:764;
+$top10_number_2up_top2_top:435;
+
+$top10_name_2up_top2_width:100;
+$top10_name_2up_top2_height:16;
+$top10_name_2up_top2_left:762;
+$top10_name_2up_top2_top:416;
+
+$top10_img_2up_top3_width:40;
+$top10_img_2up_top3_height:40;
+$top10_img_2up_top3_left:707;
+$top10_img_2up_top3_top:482;
+
+$top10_number_2up_top3_width:100;
+$top10_number_2up_top3_height:17;
+$top10_number_2up_top3_left:764;
+$top10_number_2up_top3_top:504;
+
+$top10_name_2up_top3_width:100;
+$top10_name_2up_top3_height:16;
+$top10_name_2up_top3_left:762;
+$top10_name_2up_top3_top:485;
+
+$top10_img_2up_top4_width:40;
+$top10_img_2up_top4_height:40;
+$top10_img_2up_top4_left:707;
+$top10_img_2up_top4_top:550;
+
+$top10_number_2up_top4_width:100;
+$top10_number_2up_top4_height:17;
+$top10_number_2up_top4_left:764;
+$top10_number_2up_top4_top:572;
+
+$top10_name_2up_top4_width:100;
+$top10_name_2up_top4_height:16;
+$top10_name_2up_top4_left:762;
+$top10_name_2up_top4_top:553;
+
+$top10_img_2up_top5_width:40;
+$top10_img_2up_top5_height:40;
+$top10_img_2up_top5_left:707;
+$top10_img_2up_top5_top:619;
+
+$top10_number_2up_top5_width:100;
+$top10_number_2up_top5_height:17;
+$top10_number_2up_top5_left:764;
+$top10_number_2up_top5_top:641;
+
+$top10_name_2up_top5_width:100;
+$top10_name_2up_top5_height:16;
+$top10_name_2up_top5_left:762;
+$top10_name_2up_top5_top:622;
+
+$top10_img_2up_top6_width:40;
+$top10_img_2up_top6_height:40;
+$top10_img_2up_top6_left:900;
+$top10_img_2up_top6_top:344;
+
+$top10_number_2up_top6_width:100;
+$top10_number_2up_top6_height:17;
+$top10_number_2up_top6_left:957;
+$top10_number_2up_top6_top:366;
+
+$top10_name_2up_top6_width:100;
+$top10_name_2up_top6_height:16;
+$top10_name_2up_top6_left:955;
+$top10_name_2up_top6_top:347;
+
+$top10_img_2up_top7_width:40;
+$top10_img_2up_top7_height:40;
+$top10_img_2up_top7_left:900;
+$top10_img_2up_top7_top:413;
+
+$top10_number_2up_top7_width:100;
+$top10_number_2up_top7_height:17;
+$top10_number_2up_top7_left:957;
+$top10_number_2up_top7_top:435;
+
+$top10_name_2up_top7_width:100;
+$top10_name_2up_top7_height:16;
+$top10_name_2up_top7_left:955;
+$top10_name_2up_top7_top:416;
+
+$top10_img_2up_top8_width:40;
+$top10_img_2up_top8_height:40;
+$top10_img_2up_top8_left:900;
+$top10_img_2up_top8_top:482;
+
+$top10_number_2up_top8_width:100;
+$top10_number_2up_top8_height:17;
+$top10_number_2up_top8_left:957;
+$top10_number_2up_top8_top:504;
+
+$top10_name_2up_top8_width:100;
+$top10_name_2up_top8_height:16;
+$top10_name_2up_top8_left:955;
+$top10_name_2up_top8_top:485;
+
+$top10_img_2up_top9_width:40;
+$top10_img_2up_top9_height:40;
+$top10_img_2up_top9_left:900;
+$top10_img_2up_top9_top:550;
+
+$top10_number_2up_top9_width:100;
+$top10_number_2up_top9_height:17;
+$top10_number_2up_top9_left:957;
+$top10_number_2up_top9_top:572;
+
+$top10_name_2up_top9_width:100;
+$top10_name_2up_top9_height:16;
+$top10_name_2up_top9_left:955;
+$top10_name_2up_top9_top:553;
+
+$top10_img_2up_top10_width:40;
+$top10_img_2up_top10_height:40;
+$top10_img_2up_top10_left:900;
+$top10_img_2up_top10_top:619;
+
+$top10_number_2up_top10_width:100;
+$top10_number_2up_top10_height:17;
+$top10_number_2up_top10_left:957;
+$top10_number_2up_top10_top:641;
+
+$top10_name_2up_top10_width:100;
+$top10_name_2up_top10_height:16;
+$top10_name_2up_top10_left:955;
+$top10_name_2up_top10_top:622;
+
+$top10_friend_width:219;
+$top10_friend_height:299;
+$top10_friend_left:731;
+$top10_friend_top:367;
+
+$top10_bg_1up_width:421;
+$top10_bg_1up_height:390;
+$top10_bg_1up_left:196;
+$top10_bg_1up_top:285;
+
+$top10_img_1up_top1_width:40;
+$top10_img_1up_top1_height:40;
+$top10_img_1up_top1_left:257;
+$top10_img_1up_top1_top:344;
+
+$top10_number_1up_top1_width:100;
+$top10_number_1up_top1_height:17;
+$top10_number_1up_top1_left:314;
+$top10_number_1up_top1_top:366;
+
+$top10_name_1up_top1_width:100;
+$top10_name_1up_top1_height:16;
+$top10_name_1up_top1_left:312;
+$top10_name_1up_top1_top:347;
+
+$top10_img_1up_top2_width:40;
+$top10_img_1up_top2_height:40;
+$top10_img_1up_top2_left:257;
+$top10_img_1up_top2_top:413;
+
+$top10_number_1up_top2_width:100;
+$top10_number_1up_top2_height:17;
+$top10_number_1up_top2_left:314;
+$top10_number_1up_top2_top:435;
+
+$top10_name_1up_top2_width:100;
+$top10_name_1up_top2_height:16;
+$top10_name_1up_top2_left:312;
+$top10_name_1up_top2_top:416;
+
+$top10_img_1up_top3_width:40;
+$top10_img_1up_top3_height:40;
+$top10_img_1up_top3_left:257;
+$top10_img_1up_top3_top:482;
+
+$top10_number_1up_top3_width:100;
+$top10_number_1up_top3_height:17;
+$top10_number_1up_top3_left:314;
+$top10_number_1up_top3_top:504;
+
+$top10_name_1up_top3_width:100;
+$top10_name_1up_top3_height:16;
+$top10_name_1up_top3_left:312;
+$top10_name_1up_top3_top:485;
+
+$top10_img_1up_top4_width:40;
+$top10_img_1up_top4_height:40;
+$top10_img_1up_top4_left:257;
+$top10_img_1up_top4_top:550;
+
+$top10_number_1up_top4_width:100;
+$top10_number_1up_top4_height:17;
+$top10_number_1up_top4_left:314;
+$top10_number_1up_top4_top:572;
+
+$top10_name_1up_top4_width:100;
+$top10_name_1up_top4_height:16;
+$top10_name_1up_top4_left:312;
+$top10_name_1up_top4_top:553;
+
+$top10_img_1up_top5_width:40;
+$top10_img_1up_top5_height:40;
+$top10_img_1up_top5_left:257;
+$top10_img_1up_top5_top:619;
+
+$top10_number_1up_top5_width:100;
+$top10_number_1up_top5_height:17;
+$top10_number_1up_top5_left:314;
+$top10_number_1up_top5_top:641;
+
+$top10_name_1up_top5_width:100;
+$top10_name_1up_top5_height:16;
+$top10_name_1up_top5_left:312;
+$top10_name_1up_top5_top:622;
+
+$top10_img_1up_top6_width:40;
+$top10_img_1up_top6_height:40;
+$top10_img_1up_top6_left:450;
+$top10_img_1up_top6_top:344;
+
+$top10_number_1up_top6_width:100;
+$top10_number_1up_top6_height:17;
+$top10_number_1up_top6_left:507;
+$top10_number_1up_top6_top:366;
+
+$top10_name_1up_top6_width:100;
+$top10_name_1up_top6_height:16;
+$top10_name_1up_top6_left:505;
+$top10_name_1up_top6_top:347;
+
+$top10_img_1up_top7_width:40;
+$top10_img_1up_top7_height:40;
+$top10_img_1up_top7_left:450;
+$top10_img_1up_top7_top:413;
+
+$top10_number_1up_top7_width:100;
+$top10_number_1up_top7_height:17;
+$top10_number_1up_top7_left:507;
+$top10_number_1up_top7_top:435;
+
+$top10_name_1up_top7_width:100;
+$top10_name_1up_top7_height:16;
+$top10_name_1up_top7_left:505;
+$top10_name_1up_top7_top:416;
+
+$top10_img_1up_top8_width:40;
+$top10_img_1up_top8_height:40;
+$top10_img_1up_top8_left:450;
+$top10_img_1up_top8_top:482;
+
+$top10_number_1up_top8_width:100;
+$top10_number_1up_top8_height:17;
+$top10_number_1up_top8_left:507;
+$top10_number_1up_top8_top:504;
+
+$top10_name_1up_top8_width:100;
+$top10_name_1up_top8_height:16;
+$top10_name_1up_top8_left:505;
+$top10_name_1up_top8_top:485;
+
+$top10_img_1up_top9_width:40;
+$top10_img_1up_top9_height:40;
+$top10_img_1up_top9_left:450;
+$top10_img_1up_top9_top:550;
+
+$top10_number_1up_top9_width:100;
+$top10_number_1up_top9_height:16;
+$top10_number_1up_top9_left:507;
+$top10_number_1up_top9_top:573;
+
+$top10_name_1up_top9_width:100;
+$top10_name_1up_top9_height:20;
+$top10_name_1up_top9_left:505;
+$top10_name_1up_top9_top:553;
+
+$top10_img_1up_top10_width:40;
+$top10_img_1up_top10_height:40;
+$top10_img_1up_top10_left:450;
+$top10_img_1up_top10_top:619;
+
+$top10_number_1up_top10_width:100;
+$top10_number_1up_top10_height:17;
+$top10_number_1up_top10_left:507;
+$top10_number_1up_top10_top:641;
+
+$top10_name_1up_top10_width:100;
+$top10_name_1up_top10_height:16;
+$top10_name_1up_top10_left:505;
+$top10_name_1up_top10_top:622;
+
+$top10_title_width:261;
+$top10_title_height:188;
+$top10_title_left:504;
+$top10_title_top:78;
+#top10 {
+    color: #f8d794;
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    overflow: auto;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+    #bg_2up {
+        @include customDive($top10_bg_2up_left,$top10_bg_2up_top,$top10_bg_2up_width,$top10_bg_2up_height);
+    }
+    #img_2up_top1 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top1_left,$top10_img_2up_top1_top,$top10_img_2up_top1_width,$top10_img_2up_top1_height);
+    }
+    #number_2up_top1 {
+        @include customDive($top10_number_2up_top1_left,$top10_number_2up_top1_top,$top10_number_2up_top1_width,$top10_number_2up_top1_height);
+    }
+    #name_2up_top1 {
+        @include customDive($top10_name_2up_top1_left,$top10_name_2up_top1_top,$top10_name_2up_top1_width,$top10_name_2up_top1_height);
+    }
+    #img_2up_top2 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top2_left,$top10_img_2up_top2_top,$top10_img_2up_top2_width,$top10_img_2up_top2_height);
+    }
+    #number_2up_top2 {
+        @include customDive($top10_number_2up_top2_left,$top10_number_2up_top2_top,$top10_number_2up_top2_width,$top10_number_2up_top2_height);
+    }
+    #name_2up_top2 {
+        @include customDive($top10_name_2up_top2_left,$top10_name_2up_top2_top,$top10_name_2up_top2_width,$top10_name_2up_top2_height);
+    }
+    #img_2up_top3 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top3_left,$top10_img_2up_top3_top,$top10_img_2up_top3_width,$top10_img_2up_top3_height);
+    }
+    #number_2up_top3 {
+        @include customDive($top10_number_2up_top3_left,$top10_number_2up_top3_top,$top10_number_2up_top3_width,$top10_number_2up_top3_height);
+    }
+    #name_2up_top3 {
+        @include customDive($top10_name_2up_top3_left,$top10_name_2up_top3_top,$top10_name_2up_top3_width,$top10_name_2up_top3_height);
+    }
+    #img_2up_top4 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top4_left,$top10_img_2up_top4_top,$top10_img_2up_top4_width,$top10_img_2up_top4_height);
+    }
+    #number_2up_top4 {
+        @include customDive($top10_number_2up_top4_left,$top10_number_2up_top4_top,$top10_number_2up_top4_width,$top10_number_2up_top4_height);
+    }
+    #name_2up_top4 {
+        @include customDive($top10_name_2up_top4_left,$top10_name_2up_top4_top,$top10_name_2up_top4_width,$top10_name_2up_top4_height);
+    }
+    #img_2up_top5 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top5_left,$top10_img_2up_top5_top,$top10_img_2up_top5_width,$top10_img_2up_top5_height);
+    }
+    #number_2up_top5 {
+        @include customDive($top10_number_2up_top5_left,$top10_number_2up_top5_top,$top10_number_2up_top5_width,$top10_number_2up_top5_height);
+    }
+    #name_2up_top5 {
+        @include customDive($top10_name_2up_top5_left,$top10_name_2up_top5_top,$top10_name_2up_top5_width,$top10_name_2up_top5_height);
+    }
+    #img_2up_top6 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top6_left,$top10_img_2up_top6_top,$top10_img_2up_top6_width,$top10_img_2up_top6_height);
+    }
+    #number_2up_top6 {
+        @include customDive($top10_number_2up_top6_left,$top10_number_2up_top6_top,$top10_number_2up_top6_width,$top10_number_2up_top6_height);
+    }
+    #name_2up_top6 {
+        @include customDive($top10_name_2up_top6_left,$top10_name_2up_top6_top,$top10_name_2up_top6_width,$top10_name_2up_top6_height);
+    }
+    #img_2up_top7 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top7_left,$top10_img_2up_top7_top,$top10_img_2up_top7_width,$top10_img_2up_top7_height);
+    }
+    #number_2up_top7 {
+        @include customDive($top10_number_2up_top7_left,$top10_number_2up_top7_top,$top10_number_2up_top7_width,$top10_number_2up_top7_height);
+    }
+    #name_2up_top7 {
+        @include customDive($top10_name_2up_top7_left,$top10_name_2up_top7_top,$top10_name_2up_top7_width,$top10_name_2up_top7_height);
+    }
+    #img_2up_top8 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top8_left,$top10_img_2up_top8_top,$top10_img_2up_top8_width,$top10_img_2up_top8_height);
+    }
+    #number_2up_top8 {
+        @include customDive($top10_number_2up_top8_left,$top10_number_2up_top8_top,$top10_number_2up_top8_width,$top10_number_2up_top8_height);
+    }
+    #name_2up_top8 {
+        @include customDive($top10_name_2up_top8_left,$top10_name_2up_top8_top,$top10_name_2up_top8_width,$top10_name_2up_top8_height);
+    }
+    #img_2up_top9 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top9_left,$top10_img_2up_top9_top,$top10_img_2up_top9_width,$top10_img_2up_top9_height);
+    }
+    #number_2up_top9 {
+        @include customDive($top10_number_2up_top9_left,$top10_number_2up_top9_top,$top10_number_2up_top9_width,$top10_number_2up_top9_height);
+    }
+    #name_2up_top9 {
+        @include customDive($top10_name_2up_top9_left,$top10_name_2up_top9_top,$top10_name_2up_top9_width,$top10_name_2up_top9_height);
+    }
+    #img_2up_top10 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_2up_top10_left,$top10_img_2up_top10_top,$top10_img_2up_top10_width,$top10_img_2up_top10_height);
+    }
+    #number_2up_top10 {
+        @include customDive($top10_number_2up_top10_left,$top10_number_2up_top10_top,$top10_number_2up_top10_width,$top10_number_2up_top10_height);
+    }
+    #name_2up_top10 {
+        @include customDive($top10_name_2up_top10_left,$top10_name_2up_top10_top,$top10_name_2up_top10_width,$top10_name_2up_top10_height);
+    }
+    #friend {
+        @include customDive($top10_friend_left,$top10_friend_top,$top10_friend_width,$top10_friend_height);
+    }
+    #bg_1up {
+        @include customDive($top10_bg_1up_left,$top10_bg_1up_top,$top10_bg_1up_width,$top10_bg_1up_height);
+    }
+    #img_1up_top1 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top1_left,$top10_img_1up_top1_top,$top10_img_1up_top1_width,$top10_img_1up_top1_height);
+    }
+    #number_1up_top1 {
+        @include customDive($top10_number_1up_top1_left,$top10_number_1up_top1_top,$top10_number_1up_top1_width,$top10_number_1up_top1_height);
+    }
+    #name_1up_top1 {
+        @include customDive($top10_name_1up_top1_left,$top10_name_1up_top1_top,$top10_name_1up_top1_width,$top10_name_1up_top1_height);
+    }
+    #img_1up_top2 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top2_left,$top10_img_1up_top2_top,$top10_img_1up_top2_width,$top10_img_1up_top2_height);
+    }
+    #number_1up_top2 {
+        @include customDive($top10_number_1up_top2_left,$top10_number_1up_top2_top,$top10_number_1up_top2_width,$top10_number_1up_top2_height);
+    }
+    #name_1up_top2 {
+        @include customDive($top10_name_1up_top2_left,$top10_name_1up_top2_top,$top10_name_1up_top2_width,$top10_name_1up_top2_height);
+    }
+    #img_1up_top3 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top3_left,$top10_img_1up_top3_top,$top10_img_1up_top3_width,$top10_img_1up_top3_height);
+    }
+    #number_1up_top3 {
+        @include customDive($top10_number_1up_top3_left,$top10_number_1up_top3_top,$top10_number_1up_top3_width,$top10_number_1up_top3_height);
+    }
+    #name_1up_top3 {
+        @include customDive($top10_name_1up_top3_left,$top10_name_1up_top3_top,$top10_name_1up_top3_width,$top10_name_1up_top3_height);
+    }
+    #img_1up_top4 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top4_left,$top10_img_1up_top4_top,$top10_img_1up_top4_width,$top10_img_1up_top4_height);
+    }
+    #number_1up_top4 {
+        @include customDive($top10_number_1up_top4_left,$top10_number_1up_top4_top,$top10_number_1up_top4_width,$top10_number_1up_top4_height);
+    }
+    #name_1up_top4 {
+        @include customDive($top10_name_1up_top4_left,$top10_name_1up_top4_top,$top10_name_1up_top4_width,$top10_name_1up_top4_height);
+    }
+    #img_1up_top5 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top5_left,$top10_img_1up_top5_top,$top10_img_1up_top5_width,$top10_img_1up_top5_height);
+    }
+    #number_1up_top5 {
+        @include customDive($top10_number_1up_top5_left,$top10_number_1up_top5_top,$top10_number_1up_top5_width,$top10_number_1up_top5_height);
+    }
+    #name_1up_top5 {
+        @include customDive($top10_name_1up_top5_left,$top10_name_1up_top5_top,$top10_name_1up_top5_width,$top10_name_1up_top5_height);
+    }
+    #img_1up_top6 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top6_left,$top10_img_1up_top6_top,$top10_img_1up_top6_width,$top10_img_1up_top6_height);
+    }
+    #number_1up_top6 {
+        @include customDive($top10_number_1up_top6_left,$top10_number_1up_top6_top,$top10_number_1up_top6_width,$top10_number_1up_top6_height);
+    }
+    #name_1up_top6 {
+        @include customDive($top10_name_1up_top6_left,$top10_name_1up_top6_top,$top10_name_1up_top6_width,$top10_name_1up_top6_height);
+    }
+    #img_1up_top7 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top7_left,$top10_img_1up_top7_top,$top10_img_1up_top7_width,$top10_img_1up_top7_height);
+    }
+    #number_1up_top7 {
+        @include customDive($top10_number_1up_top7_left,$top10_number_1up_top7_top,$top10_number_1up_top7_width,$top10_number_1up_top7_height);
+    }
+    #name_1up_top7 {
+        @include customDive($top10_name_1up_top7_left,$top10_name_1up_top7_top,$top10_name_1up_top7_width,$top10_name_1up_top7_height);
+    }
+    #img_1up_top8 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top8_left,$top10_img_1up_top8_top,$top10_img_1up_top8_width,$top10_img_1up_top8_height);
+    }
+    #number_1up_top8 {
+        @include customDive($top10_number_1up_top8_left,$top10_number_1up_top8_top,$top10_number_1up_top8_width,$top10_number_1up_top8_height);
+    }
+    #name_1up_top8 {
+        @include customDive($top10_name_1up_top8_left,$top10_name_1up_top8_top,$top10_name_1up_top8_width,$top10_name_1up_top8_height);
+    }
+    #img_1up_top9 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top9_left,$top10_img_1up_top9_top,$top10_img_1up_top9_width,$top10_img_1up_top9_height);
+    }
+    #number_1up_top9 {
+        @include customDive($top10_number_1up_top9_left,$top10_number_1up_top9_top,$top10_number_1up_top9_width,$top10_number_1up_top9_height);
+    }
+    #name_1up_top9 {
+        @include customDive($top10_name_1up_top9_left,$top10_name_1up_top9_top,$top10_name_1up_top9_width,$top10_name_1up_top9_height);
+    }
+    #img_1up_top10 {
+        background-image: url('../img/top10/img_user.png');
+        background-size: cover;
+        @include customDive($top10_img_1up_top10_left,$top10_img_1up_top10_top,$top10_img_1up_top10_width,$top10_img_1up_top10_height);
+    }
+    #number_1up_top10 {
+        @include customDive($top10_number_1up_top10_left,$top10_number_1up_top10_top,$top10_number_1up_top10_width,$top10_number_1up_top10_height);
+    }
+    #name_1up_top10 {
+        @include customDive($top10_name_1up_top10_left,$top10_name_1up_top10_top,$top10_name_1up_top10_width,$top10_name_1up_top10_height);
+    }
+    #title {
+        @include customDive($top10_title_left,$top10_title_top,$top10_title_width,$top10_title_height);
+    }
+}

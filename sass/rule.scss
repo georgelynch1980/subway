@@ -1,0 +1,129 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+$rule_contents_width:832;
+$rule_contents_height:406;
+$rule_contents_left:209;
+$rule_contents_top:285;
+$rule_scroll_width:13;
+$rule_scroll_height:395;
+$rule_scroll_left:1041;
+$rule_scroll_top:290;
+$rule_border_width:869;
+$rule_border_height:440;
+$rule_border_left:196;
+$rule_border_top:264;
+$rule_title_width:254;
+$rule_title_height:173;
+$rule_title_left:507;
+$rule_title_top:78;
+#rule {
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    overflow: auto;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+    #contents {
+        @include customDive($rule_contents_left,$rule_contents_top,$rule_contents_width,$rule_contents_height);
+    }
+   
+    #border {
+        @include customDive($rule_border_left,$rule_border_top,$rule_border_width,$rule_border_height);
+    }
+    #title {
+        @include customDive($rule_title_left,$rule_title_top,$rule_title_width,$rule_title_height);
+    }
+}
+
+#contents .viewport {
+    width: 813px;
+    height: 460px;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#contents .overview {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 813px;
+    height: 1047px;
+    img{
+        //cursor: pointer;
+    }
+}
+#contents .scrollbar {
+    position: relative;
+    float: right;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 13px;
+    height: 395px;
+}
+#contents .track {
+    cursor: pointer;
+    position: absolute;
+    background-image: url("../img/rule/track.png");
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 395px;
+}
+#contents .thumb {
+    background-image: url("../img/rule/thumb.png");
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+#contents .thumb .end {
+    position: absolute;
+    background-image: url("../img/rule/thumb.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    top: 13px;
+}
+#contents .disable {
+    display: none;
+}
+.noSelect {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}

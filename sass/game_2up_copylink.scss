@@ -1,0 +1,95 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+
+
+$game_2up_start_copy_contents_width:548;
+$game_2up_start_copy_contents_height:296;
+$game_2up_start_copy_contents_left:359;
+$game_2up_start_copy_contents_top:319;
+$game_2up_start_fb_img_width:137;
+$game_2up_start_fb_img_height:137;
+$game_2up_start_fb_img_left:401;
+$game_2up_start_fb_img_top:357;
+
+$game_2up_start_copyurl_width:477;
+$game_2up_start_copyurl_height:95;
+$game_2up_start_copyurl_left:397;
+$game_2up_start_copyurl_top:484;
+
+$game_1up_start_title_width:219;
+$game_1up_start_title_height:167;
+$game_1up_start_title_left:521;
+$game_1up_start_title_top:121;
+
+#game_2up_copylink {
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    overflow: auto;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+    #title {
+        @include customDive($game_1up_start_title_left,$game_1up_start_title_top,$game_1up_start_title_width,$game_1up_start_title_height);
+    }
+    
+   
+    #copy_contents {
+        @include customDive($game_2up_start_copy_contents_left,$game_2up_start_copy_contents_top,$game_2up_start_copy_contents_width,$game_2up_start_copy_contents_height);
+    }
+    #fb_img {
+        border:#f4cc8d 1px solid; 
+        background-image: url('../img/game_2up_start/fb_img.png');
+        background-size: cover;
+        @include customDive($game_2up_start_fb_img_left,$game_2up_start_fb_img_top,$game_2up_start_fb_img_width,$game_2up_start_fb_img_height);
+    }
+    
+    #copyurl {
+        #copyurl_container{
+            font-family:"\u5FAE\u8EDF\u6B63\u9ED1\u9AD4", "Microsoft JhengHei", "\u65B0\u7D30\u660E\u9AD4", "PMingLiU", "\u7D30\u660E\u9AD4", "MingLiU", "\u6A19\u6977\u9AD4", "DFKai-sb", serif;
+            background-image: url("../img/game2up_copylink/text_bg.png");
+            padding-top: 45px;
+            padding-left: 15px;
+            font-size: 14px;
+            width: 383px;
+            height: 50px;
+            line-height: 20px;
+            float: left;
+            #share_links{
+                color: #0953fa;
+            }
+        }
+        #copy_links{
+            cursor: pointer;
+            margin-top: 32px;
+            width: 73px;
+            height: 66px;
+            float: left;
+        }
+        
+        @include customDive($game_2up_start_copyurl_left,$game_2up_start_copyurl_top,$game_2up_start_copyurl_width,$game_2up_start_copyurl_height);
+    }
+}
+

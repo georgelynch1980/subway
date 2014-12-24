@@ -1,0 +1,177 @@
+/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 27, ../sass/rule.scss */
+#rule {
+  position: absolute;
+  width: 1280px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -640px;
+  margin-top: -415px;
+  overflow: auto; }
+  @media screen and (max-width: 1048px) {
+    /* line 27, ../sass/rule.scss */
+    #rule {
+      position: absolute;
+      left: -116px;
+      margin-left: 0px; } }
+  @media screen and (max-height: 717px) {
+    /* line 27, ../sass/rule.scss */
+    #rule {
+      position: absolute;
+      top: -56px;
+      margin-top: 0px;
+      overflow: hidden; } }
+  /* line 49, ../sass/rule.scss */
+  #rule #contents {
+    position: absolute;
+    overflow: hidden;
+    top: 285px;
+    left: 209px;
+    width: 832px;
+    height: 406px; }
+  /* line 53, ../sass/rule.scss */
+  #rule #border {
+    position: absolute;
+    overflow: hidden;
+    top: 264px;
+    left: 196px;
+    width: 869px;
+    height: 440px; }
+  /* line 56, ../sass/rule.scss */
+  #rule #title {
+    position: absolute;
+    overflow: hidden;
+    top: 78px;
+    left: 507px;
+    width: 254px;
+    height: 173px; }
+
+/* line 61, ../sass/rule.scss */
+#contents .viewport {
+  width: 813px;
+  height: 460px;
+  margin-top: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  left: 0px; }
+
+/* line 71, ../sass/rule.scss */
+#contents .overview {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 813px;
+  height: 1047px; }
+
+/* line 83, ../sass/rule.scss */
+#contents .scrollbar {
+  position: relative;
+  float: right;
+  top: 0px;
+  left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 13px;
+  height: 395px; }
+
+/* line 93, ../sass/rule.scss */
+#contents .track {
+  cursor: pointer;
+  position: absolute;
+  background-image: url("../img/rule/track.png");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 395px; }
+
+/* line 101, ../sass/rule.scss */
+#contents .thumb {
+  background-image: url("../img/rule/thumb.png");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0px; }
+
+/* line 111, ../sass/rule.scss */
+#contents .thumb .end {
+  position: absolute;
+  background-image: url("../img/rule/thumb.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 13px;
+  height: 13px;
+  top: 13px; }
+
+/* line 120, ../sass/rule.scss */
+#contents .disable {
+  display: none; }
+
+/* line 123, ../sass/rule.scss */
+.noSelect {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }

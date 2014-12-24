@@ -1,0 +1,158 @@
+/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 47, ../sass/game_1up_start.scss */
+#game_1up_start {
+  position: absolute;
+  width: 1280px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -640px;
+  margin-top: -415px;
+  overflow: auto; }
+  @media screen and (max-width: 1048px) {
+    /* line 47, ../sass/game_1up_start.scss */
+    #game_1up_start {
+      position: absolute;
+      left: -116px;
+      margin-left: 0px; } }
+  @media screen and (max-height: 717px) {
+    /* line 47, ../sass/game_1up_start.scss */
+    #game_1up_start {
+      position: absolute;
+      top: -56px;
+      margin-top: 0px;
+      overflow: hidden; } }
+  /* line 70, ../sass/game_1up_start.scss */
+  #game_1up_start #title {
+    position: absolute;
+    overflow: hidden;
+    top: 121px;
+    left: 521px;
+    width: 219px;
+    height: 167px; }
+  /* line 73, ../sass/game_1up_start.scss */
+  #game_1up_start #use {
+    position: absolute;
+    overflow: hidden;
+    top: 323px;
+    left: 382px;
+    width: 499px;
+    height: 42px; }
+  /* line 76, ../sass/game_1up_start.scss */
+  #game_1up_start #step1 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 317px;
+    width: 187px;
+    height: 210px; }
+  /* line 79, ../sass/game_1up_start.scss */
+  #game_1up_start #step2 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 535px;
+    width: 187px;
+    height: 210px; }
+  /* line 82, ../sass/game_1up_start.scss */
+  #game_1up_start #step3 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 753px;
+    width: 187px;
+    height: 210px; }
+  /* line 85, ../sass/game_1up_start.scss */
+  #game_1up_start #login_fb {
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    top: 647px;
+    left: 529px;
+    width: 201px;
+    height: 37px; }
+  /* line 89, ../sass/game_1up_start.scss */
+  #game_1up_start #use_qrcode {
+    position: absolute;
+    overflow: hidden;
+    top: 315px;
+    left: 463px;
+    width: 330px;
+    height: 35px; }
+  /* line 92, ../sass/game_1up_start.scss */
+  #game_1up_start #cycle {
+    position: absolute;
+    overflow: hidden;
+    top: 361px;
+    left: 463px;
+    width: 329px;
+    height: 329px; }
+  /* line 95, ../sass/game_1up_start.scss */
+  #game_1up_start #qrcode_container {
+    position: absolute;
+    overflow: hidden;
+    top: 412px;
+    left: 514px;
+    width: 227px;
+    height: 227px;
+    top: 430px;
+    left: 528px; }
+    /* line 100, ../sass/game_1up_start.scss */
+    #game_1up_start #qrcode_container img {
+      width: 200px;
+      height: 200px; }

@@ -1,0 +1,98 @@
+/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 28, ../sass/game_2up_err.scss */
+#game_2up_err {
+  position: absolute;
+  width: 1280px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -640px;
+  margin-top: -415px;
+  overflow: auto; }
+  @media screen and (max-width: 1048px) {
+    /* line 28, ../sass/game_2up_err.scss */
+    #game_2up_err {
+      position: absolute;
+      left: -116px;
+      margin-left: 0px; } }
+  @media screen and (max-height: 717px) {
+    /* line 28, ../sass/game_2up_err.scss */
+    #game_2up_err {
+      position: absolute;
+      top: -56px;
+      margin-top: 0px;
+      overflow: hidden; } }
+  /* line 50, ../sass/game_2up_err.scss */
+  #game_2up_err #title {
+    position: absolute;
+    overflow: hidden;
+    top: 121px;
+    left: 521px;
+    width: 219px;
+    height: 167px; }
+  /* line 54, ../sass/game_2up_err.scss */
+  #game_2up_err #err_contents {
+    color: #f8d794;
+    font-size: 18px;
+    letter-spacing: 3px;
+    position: absolute;
+    overflow: hidden;
+    top: 369px;
+    left: 395px;
+    width: 453px;
+    height: 82px; }

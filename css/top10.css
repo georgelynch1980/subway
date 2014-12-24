@@ -1,0 +1,632 @@
+/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 330, ../sass/top10.scss */
+#top10 {
+  color: #f8d794;
+  position: absolute;
+  width: 1280px;
+  height: 830px;
+  left: 50%;
+  top: 50%;
+  margin-left: -640px;
+  margin-top: -415px;
+  overflow: auto; }
+  @media screen and (max-width: 1048px) {
+    /* line 330, ../sass/top10.scss */
+    #top10 {
+      position: absolute;
+      left: -116px;
+      margin-left: 0px; } }
+  @media screen and (max-height: 717px) {
+    /* line 330, ../sass/top10.scss */
+    #top10 {
+      position: absolute;
+      top: -56px;
+      margin-top: 0px;
+      overflow: hidden; } }
+  /* line 353, ../sass/top10.scss */
+  #top10 #bg_2up {
+    position: absolute;
+    overflow: hidden;
+    top: 285px;
+    left: 646px;
+    width: 421px;
+    height: 390px; }
+  /* line 356, ../sass/top10.scss */
+  #top10 #img_2up_top1 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 344px;
+    left: 707px;
+    width: 40px;
+    height: 40px; }
+  /* line 361, ../sass/top10.scss */
+  #top10 #number_2up_top1 {
+    position: absolute;
+    overflow: hidden;
+    top: 366px;
+    left: 764px;
+    width: 100px;
+    height: 17px; }
+  /* line 364, ../sass/top10.scss */
+  #top10 #name_2up_top1 {
+    position: absolute;
+    overflow: hidden;
+    top: 347px;
+    left: 762px;
+    width: 100px;
+    height: 16px; }
+  /* line 367, ../sass/top10.scss */
+  #top10 #img_2up_top2 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 413px;
+    left: 707px;
+    width: 40px;
+    height: 40px; }
+  /* line 372, ../sass/top10.scss */
+  #top10 #number_2up_top2 {
+    position: absolute;
+    overflow: hidden;
+    top: 435px;
+    left: 764px;
+    width: 100px;
+    height: 17px; }
+  /* line 375, ../sass/top10.scss */
+  #top10 #name_2up_top2 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 762px;
+    width: 100px;
+    height: 16px; }
+  /* line 378, ../sass/top10.scss */
+  #top10 #img_2up_top3 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 482px;
+    left: 707px;
+    width: 40px;
+    height: 40px; }
+  /* line 383, ../sass/top10.scss */
+  #top10 #number_2up_top3 {
+    position: absolute;
+    overflow: hidden;
+    top: 504px;
+    left: 764px;
+    width: 100px;
+    height: 17px; }
+  /* line 386, ../sass/top10.scss */
+  #top10 #name_2up_top3 {
+    position: absolute;
+    overflow: hidden;
+    top: 485px;
+    left: 762px;
+    width: 100px;
+    height: 16px; }
+  /* line 389, ../sass/top10.scss */
+  #top10 #img_2up_top4 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 550px;
+    left: 707px;
+    width: 40px;
+    height: 40px; }
+  /* line 394, ../sass/top10.scss */
+  #top10 #number_2up_top4 {
+    position: absolute;
+    overflow: hidden;
+    top: 572px;
+    left: 764px;
+    width: 100px;
+    height: 17px; }
+  /* line 397, ../sass/top10.scss */
+  #top10 #name_2up_top4 {
+    position: absolute;
+    overflow: hidden;
+    top: 553px;
+    left: 762px;
+    width: 100px;
+    height: 16px; }
+  /* line 400, ../sass/top10.scss */
+  #top10 #img_2up_top5 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 619px;
+    left: 707px;
+    width: 40px;
+    height: 40px; }
+  /* line 405, ../sass/top10.scss */
+  #top10 #number_2up_top5 {
+    position: absolute;
+    overflow: hidden;
+    top: 641px;
+    left: 764px;
+    width: 100px;
+    height: 17px; }
+  /* line 408, ../sass/top10.scss */
+  #top10 #name_2up_top5 {
+    position: absolute;
+    overflow: hidden;
+    top: 622px;
+    left: 762px;
+    width: 100px;
+    height: 16px; }
+  /* line 411, ../sass/top10.scss */
+  #top10 #img_2up_top6 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 344px;
+    left: 900px;
+    width: 40px;
+    height: 40px; }
+  /* line 416, ../sass/top10.scss */
+  #top10 #number_2up_top6 {
+    position: absolute;
+    overflow: hidden;
+    top: 366px;
+    left: 957px;
+    width: 100px;
+    height: 17px; }
+  /* line 419, ../sass/top10.scss */
+  #top10 #name_2up_top6 {
+    position: absolute;
+    overflow: hidden;
+    top: 347px;
+    left: 955px;
+    width: 100px;
+    height: 16px; }
+  /* line 422, ../sass/top10.scss */
+  #top10 #img_2up_top7 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 413px;
+    left: 900px;
+    width: 40px;
+    height: 40px; }
+  /* line 427, ../sass/top10.scss */
+  #top10 #number_2up_top7 {
+    position: absolute;
+    overflow: hidden;
+    top: 435px;
+    left: 957px;
+    width: 100px;
+    height: 17px; }
+  /* line 430, ../sass/top10.scss */
+  #top10 #name_2up_top7 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 955px;
+    width: 100px;
+    height: 16px; }
+  /* line 433, ../sass/top10.scss */
+  #top10 #img_2up_top8 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 482px;
+    left: 900px;
+    width: 40px;
+    height: 40px; }
+  /* line 438, ../sass/top10.scss */
+  #top10 #number_2up_top8 {
+    position: absolute;
+    overflow: hidden;
+    top: 504px;
+    left: 957px;
+    width: 100px;
+    height: 17px; }
+  /* line 441, ../sass/top10.scss */
+  #top10 #name_2up_top8 {
+    position: absolute;
+    overflow: hidden;
+    top: 485px;
+    left: 955px;
+    width: 100px;
+    height: 16px; }
+  /* line 444, ../sass/top10.scss */
+  #top10 #img_2up_top9 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 550px;
+    left: 900px;
+    width: 40px;
+    height: 40px; }
+  /* line 449, ../sass/top10.scss */
+  #top10 #number_2up_top9 {
+    position: absolute;
+    overflow: hidden;
+    top: 572px;
+    left: 957px;
+    width: 100px;
+    height: 17px; }
+  /* line 452, ../sass/top10.scss */
+  #top10 #name_2up_top9 {
+    position: absolute;
+    overflow: hidden;
+    top: 553px;
+    left: 955px;
+    width: 100px;
+    height: 16px; }
+  /* line 455, ../sass/top10.scss */
+  #top10 #img_2up_top10 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 619px;
+    left: 900px;
+    width: 40px;
+    height: 40px; }
+  /* line 460, ../sass/top10.scss */
+  #top10 #number_2up_top10 {
+    position: absolute;
+    overflow: hidden;
+    top: 641px;
+    left: 957px;
+    width: 100px;
+    height: 17px; }
+  /* line 463, ../sass/top10.scss */
+  #top10 #name_2up_top10 {
+    position: absolute;
+    overflow: hidden;
+    top: 622px;
+    left: 955px;
+    width: 100px;
+    height: 16px; }
+  /* line 466, ../sass/top10.scss */
+  #top10 #friend {
+    position: absolute;
+    overflow: hidden;
+    top: 367px;
+    left: 731px;
+    width: 219px;
+    height: 299px; }
+  /* line 469, ../sass/top10.scss */
+  #top10 #bg_1up {
+    position: absolute;
+    overflow: hidden;
+    top: 285px;
+    left: 196px;
+    width: 421px;
+    height: 390px; }
+  /* line 472, ../sass/top10.scss */
+  #top10 #img_1up_top1 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 344px;
+    left: 257px;
+    width: 40px;
+    height: 40px; }
+  /* line 477, ../sass/top10.scss */
+  #top10 #number_1up_top1 {
+    position: absolute;
+    overflow: hidden;
+    top: 366px;
+    left: 314px;
+    width: 100px;
+    height: 17px; }
+  /* line 480, ../sass/top10.scss */
+  #top10 #name_1up_top1 {
+    position: absolute;
+    overflow: hidden;
+    top: 347px;
+    left: 312px;
+    width: 100px;
+    height: 16px; }
+  /* line 483, ../sass/top10.scss */
+  #top10 #img_1up_top2 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 413px;
+    left: 257px;
+    width: 40px;
+    height: 40px; }
+  /* line 488, ../sass/top10.scss */
+  #top10 #number_1up_top2 {
+    position: absolute;
+    overflow: hidden;
+    top: 435px;
+    left: 314px;
+    width: 100px;
+    height: 17px; }
+  /* line 491, ../sass/top10.scss */
+  #top10 #name_1up_top2 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 312px;
+    width: 100px;
+    height: 16px; }
+  /* line 494, ../sass/top10.scss */
+  #top10 #img_1up_top3 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 482px;
+    left: 257px;
+    width: 40px;
+    height: 40px; }
+  /* line 499, ../sass/top10.scss */
+  #top10 #number_1up_top3 {
+    position: absolute;
+    overflow: hidden;
+    top: 504px;
+    left: 314px;
+    width: 100px;
+    height: 17px; }
+  /* line 502, ../sass/top10.scss */
+  #top10 #name_1up_top3 {
+    position: absolute;
+    overflow: hidden;
+    top: 485px;
+    left: 312px;
+    width: 100px;
+    height: 16px; }
+  /* line 505, ../sass/top10.scss */
+  #top10 #img_1up_top4 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 550px;
+    left: 257px;
+    width: 40px;
+    height: 40px; }
+  /* line 510, ../sass/top10.scss */
+  #top10 #number_1up_top4 {
+    position: absolute;
+    overflow: hidden;
+    top: 572px;
+    left: 314px;
+    width: 100px;
+    height: 17px; }
+  /* line 513, ../sass/top10.scss */
+  #top10 #name_1up_top4 {
+    position: absolute;
+    overflow: hidden;
+    top: 553px;
+    left: 312px;
+    width: 100px;
+    height: 16px; }
+  /* line 516, ../sass/top10.scss */
+  #top10 #img_1up_top5 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 619px;
+    left: 257px;
+    width: 40px;
+    height: 40px; }
+  /* line 521, ../sass/top10.scss */
+  #top10 #number_1up_top5 {
+    position: absolute;
+    overflow: hidden;
+    top: 641px;
+    left: 314px;
+    width: 100px;
+    height: 17px; }
+  /* line 524, ../sass/top10.scss */
+  #top10 #name_1up_top5 {
+    position: absolute;
+    overflow: hidden;
+    top: 622px;
+    left: 312px;
+    width: 100px;
+    height: 16px; }
+  /* line 527, ../sass/top10.scss */
+  #top10 #img_1up_top6 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 344px;
+    left: 450px;
+    width: 40px;
+    height: 40px; }
+  /* line 532, ../sass/top10.scss */
+  #top10 #number_1up_top6 {
+    position: absolute;
+    overflow: hidden;
+    top: 366px;
+    left: 507px;
+    width: 100px;
+    height: 17px; }
+  /* line 535, ../sass/top10.scss */
+  #top10 #name_1up_top6 {
+    position: absolute;
+    overflow: hidden;
+    top: 347px;
+    left: 505px;
+    width: 100px;
+    height: 16px; }
+  /* line 538, ../sass/top10.scss */
+  #top10 #img_1up_top7 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 413px;
+    left: 450px;
+    width: 40px;
+    height: 40px; }
+  /* line 543, ../sass/top10.scss */
+  #top10 #number_1up_top7 {
+    position: absolute;
+    overflow: hidden;
+    top: 435px;
+    left: 507px;
+    width: 100px;
+    height: 17px; }
+  /* line 546, ../sass/top10.scss */
+  #top10 #name_1up_top7 {
+    position: absolute;
+    overflow: hidden;
+    top: 416px;
+    left: 505px;
+    width: 100px;
+    height: 16px; }
+  /* line 549, ../sass/top10.scss */
+  #top10 #img_1up_top8 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 482px;
+    left: 450px;
+    width: 40px;
+    height: 40px; }
+  /* line 554, ../sass/top10.scss */
+  #top10 #number_1up_top8 {
+    position: absolute;
+    overflow: hidden;
+    top: 504px;
+    left: 507px;
+    width: 100px;
+    height: 17px; }
+  /* line 557, ../sass/top10.scss */
+  #top10 #name_1up_top8 {
+    position: absolute;
+    overflow: hidden;
+    top: 485px;
+    left: 505px;
+    width: 100px;
+    height: 16px; }
+  /* line 560, ../sass/top10.scss */
+  #top10 #img_1up_top9 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 550px;
+    left: 450px;
+    width: 40px;
+    height: 40px; }
+  /* line 565, ../sass/top10.scss */
+  #top10 #number_1up_top9 {
+    position: absolute;
+    overflow: hidden;
+    top: 573px;
+    left: 507px;
+    width: 100px;
+    height: 16px; }
+  /* line 568, ../sass/top10.scss */
+  #top10 #name_1up_top9 {
+    position: absolute;
+    overflow: hidden;
+    top: 553px;
+    left: 505px;
+    width: 100px;
+    height: 20px; }
+  /* line 571, ../sass/top10.scss */
+  #top10 #img_1up_top10 {
+    background-image: url("../img/top10/img_user.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 619px;
+    left: 450px;
+    width: 40px;
+    height: 40px; }
+  /* line 576, ../sass/top10.scss */
+  #top10 #number_1up_top10 {
+    position: absolute;
+    overflow: hidden;
+    top: 641px;
+    left: 507px;
+    width: 100px;
+    height: 17px; }
+  /* line 579, ../sass/top10.scss */
+  #top10 #name_1up_top10 {
+    position: absolute;
+    overflow: hidden;
+    top: 622px;
+    left: 505px;
+    width: 100px;
+    height: 16px; }
+  /* line 582, ../sass/top10.scss */
+  #top10 #title {
+    position: absolute;
+    overflow: hidden;
+    top: 78px;
+    left: 504px;
+    width: 261px;
+    height: 188px; }
