@@ -1,0 +1,667 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+$mobile_bg_width:640;
+$mobile_bg_height:960;
+$mobile_bg_left:0;
+$mobile_bg_top:0;
+$mobile_bg-snow_width:640;
+$mobile_bg-snow_height:245;
+$mobile_bg-snow_left:0;
+$mobile_bg-snow_top:0;
+$mobile_m_2up_home_title_width:375;
+$mobile_m_2up_home_title_height:287;
+$mobile_m_2up_home_title_left:135;
+$mobile_m_2up_home_title_top:126;
+$mobile_m_2up_home_contents_width:544;
+$mobile_m_2up_home_contents_height:127;
+$mobile_m_2up_home_contents_left:46;
+$mobile_m_2up_home_contents_top:455;
+$mobile_m_2up_home_go_width:346;
+$mobile_m_2up_home_go_height:63;
+$mobile_m_2up_home_go_left:148;
+$mobile_m_2up_home_go_top:620;
+$mobile_m_2up_home_pd_width:597;
+$mobile_m_2up_home_pd_height:208;
+$mobile_m_2up_home_pd_left:15;
+$mobile_m_2up_home_pd_top:721;
+$mobile_m_2up_copylink_pd_width:602;
+$mobile_m_2up_copylink_pd_height:295;
+$mobile_m_2up_copylink_pd_left:15;
+$mobile_m_2up_copylink_pd_top:596;
+$mobile_m_2up_copylink_title_width:336;
+$mobile_m_2up_copylink_title_height:256;
+$mobile_m_2up_copylink_title_left:155;
+$mobile_m_2up_copylink_title_top:121;
+$mobile_m_2up_copylink_line_share_width:148;
+$mobile_m_2up_copylink_line_share_height:148;
+$mobile_m_2up_copylink_line_share_left:399;
+$mobile_m_2up_copylink_line_share_top:455;
+$mobile_m_2up_copylink_me_cell_width:28;
+$mobile_m_2up_copylink_me_cell_height:51;
+$mobile_m_2up_copylink_me_cell_left:211;
+$mobile_m_2up_copylink_me_cell_top:508;
+$mobile_m_2up_copylink_friend_cell_width:61;
+$mobile_m_2up_copylink_friend_cell_height:110;
+$mobile_m_2up_copylink_friend_cell_left:248;
+$mobile_m_2up_copylink_friend_cell_top:484;
+$mobile_m_2up_copylink_qrcode_width:164;
+$mobile_m_2up_copylink_qrcode_height:164;
+$mobile_m_2up_copylink_qrcode_left:27;
+$mobile_m_2up_copylink_qrcode_top:452;
+$mobile_m_2up_copylink_contents_width:499;
+$mobile_m_2up_copylink_contents_height:247;
+$mobile_m_2up_copylink_contents_left:48;
+$mobile_m_2up_copylink_contents_top:403;
+$mobile_m_2up_err_contents_width:425;
+$mobile_m_2up_err_contents_height:121;
+$mobile_m_2up_err_contents_left:113;
+$mobile_m_2up_err_contents_top:496;
+$mobile_m_2up_err_ico_width:107;
+$mobile_m_2up_err_ico_height:176;
+$mobile_m_2up_err_ico_left:271;
+$mobile_m_2up_err_ico_top:255;
+$mobile_m_2up_game_bg_width:640;
+$mobile_m_2up_game_bg_height:671;
+$mobile_m_2up_game_bg_left:0;
+$mobile_m_2up_game_bg_top:0;
+$mobile_m_2up_game_contents_width:433;
+$mobile_m_2up_game_contents_height:81;
+$mobile_m_2up_game_contents_left:110;
+$mobile_m_2up_game_contents_top:543;
+$mobile_m_2up_game_countdown_width:50;
+$mobile_m_2up_game_countdown_height:91;
+$mobile_m_2up_game_countdown_left:301;
+$mobile_m_2up_game_countdown_top:284;
+$mobile_m_2up_game_hand_width:382;
+$mobile_m_2up_game_hand_height:370;
+$mobile_m_2up_game_hand_left:193;
+$mobile_m_2up_game_hand_top:707;
+$mobile_m_2up_game_time_width:161;
+$mobile_m_2up_game_time_height:52;
+$mobile_m_2up_game_time_left:241;
+$mobile_m_2up_game_time_top:447;
+$mobile_m_2up_game_contents_width:384;
+$mobile_m_2up_game_contents_height:121;
+$mobile_m_2up_game_contents_left:134;
+$mobile_m_2up_game_contents_top:495;
+$mobile_m_2up_game_number_width:243;
+$mobile_m_2up_game_number_height:200;
+$mobile_m_2up_game_number_left:196;
+$mobile_m_2up_game_number_top:215;
+$mobile_m_2up_game_ico_width:268;
+$mobile_m_2up_game_ico_height:268;
+$mobile_m_2up_game_ico_left:191;
+$mobile_m_2up_game_ico_top:197;
+$mobile_m_2up_result_me_bg_width:640;
+$mobile_m_2up_result_me_bg_height:671;
+$mobile_m_2up_result_me_bg_left:0;
+$mobile_m_2up_result_me_bg_top:0;
+$mobile_m_2up_result_me_title_width:266;
+$mobile_m_2up_result_me_title_height:34;
+$mobile_m_2up_result_me_title_left:189;
+$mobile_m_2up_result_me_title_top:453;
+$mobile_m_2up_result_me_img_width:76;
+$mobile_m_2up_result_me_img_height:76;
+$mobile_m_2up_result_me_img_left:120;
+$mobile_m_2up_result_me_img_top:536;
+$mobile_m_2up_result_me_friend_width:477;
+$mobile_m_2up_result_me_friend_height:78;
+$mobile_m_2up_result_me_friend_left:83;
+$mobile_m_2up_result_me_friend_top:536;
+$mobile_m_2up_result_me_number_width:250;
+$mobile_m_2up_result_me_number_height:50;
+$mobile_m_2up_result_me_number_left:194;
+$mobile_m_2up_result_me_number_top:555;
+$mobile_m_2up_result_me_coupon_width:346;
+$mobile_m_2up_result_me_coupon_height:63;
+$mobile_m_2up_result_me_coupon_left:148;
+$mobile_m_2up_result_me_coupon_top:654;
+$mobile_m_2up_result_me_total_number_width:354;
+$mobile_m_2up_result_me_total_number_height:200;
+$mobile_m_2up_result_me_total_number_left:144;
+$mobile_m_2up_result_me_total_number_top:215;
+$mobile_m_2up_result_friend_bg_width:640;
+$mobile_m_2up_result_friend_bg_height:671;
+$mobile_m_2up_result_friend_bg_left:0;
+$mobile_m_2up_result_friend_bg_top:0;
+$mobile_m_2up_result_friend_title_width:266;
+$mobile_m_2up_result_friend_title_height:34;
+$mobile_m_2up_result_friend_title_left:189;
+$mobile_m_2up_result_friend_title_top:453;
+$mobile_m_2up_result_friend_img_width:76;
+$mobile_m_2up_result_friend_img_height:76;
+$mobile_m_2up_result_friend_img_left:120;
+$mobile_m_2up_result_friend_img_top:536;
+$mobile_m_2up_result_friend_friend_width:477;
+$mobile_m_2up_result_friend_friend_height:78;
+$mobile_m_2up_result_friend_friend_left:83;
+$mobile_m_2up_result_friend_friend_top:536;
+$mobile_m_2up_result_friend_number_width:250;
+$mobile_m_2up_result_friend_number_height:50;
+$mobile_m_2up_result_friend_number_left:194;
+$mobile_m_2up_result_friend_number_top:555;
+$mobile_m_2up_result_friend_total_numbe_width:354;
+$mobile_m_2up_result_friend_total_numbe_height:200;
+$mobile_m_2up_result_friend_total_numbe_left:144;
+$mobile_m_2up_result_friend_total_numbe_top:215;
+$mobile_m_2up_result_friend_contents_width:502;
+$mobile_m_2up_result_friend_contents_height:114;
+$mobile_m_2up_result_friend_contents_left:76;
+$mobile_m_2up_result_friend_contents_top:692;
+$mobile_m_2up_fail_bg_width:640;
+$mobile_m_2up_fail_bg_height:671;
+$mobile_m_2up_fail_bg_left:0;
+$mobile_m_2up_fail_bg_top:0;
+$mobile_m_2up_fail_title_width:266;
+$mobile_m_2up_fail_title_height:34;
+$mobile_m_2up_fail_title_left:189;
+$mobile_m_2up_fail_title_top:453;
+$mobile_m_2up_fail_img_width:78;
+$mobile_m_2up_fail_img_height:78;
+$mobile_m_2up_fail_img_left:120;
+$mobile_m_2up_fail_img_top:536;
+$mobile_m_2up_fail_friend_width:477;
+$mobile_m_2up_fail_friend_height:78;
+$mobile_m_2up_fail_friend_left:83;
+$mobile_m_2up_fail_friend_top:536;
+$mobile_m_2up_fail_number_width:185;
+$mobile_m_2up_fail_number_height:43;
+$mobile_m_2up_fail_number_left:227;
+$mobile_m_2up_fail_number_top:555;
+$mobile_m_2up_fail_total_number_width:354;
+$mobile_m_2up_fail_total_number_height:200;
+$mobile_m_2up_fail_total_number_left:144;
+$mobile_m_2up_fail_total_number_top:215;
+$mobile_m_2up_fail_total_again_width:346;
+$mobile_m_2up_fail_total_again_height:63;
+$mobile_m_2up_fail_total_again_left:148;
+$mobile_m_2up_fail_total_again_top:668;
+$mobile_m_2up_fail_total_remark_width:197;
+$mobile_m_2up_fail_total_remark_height:23;
+$mobile_m_2up_fail_total_remark_left:225;
+$mobile_m_2up_fail_total_remark_top:635;
+$mobile_m_1up_home_title_width:375;
+$mobile_m_1up_home_title_height:287;
+$mobile_m_1up_home_title_left:135;
+$mobile_m_1up_home_title_top:126;
+$mobile_m_1up_home_contents_width:493;
+$mobile_m_1up_home_contents_height:67;
+$mobile_m_1up_home_contents_left:76;
+$mobile_m_1up_home_contents_top:445;
+$mobile_m_1up_home_go_width:346;
+$mobile_m_1up_home_go_height:63;
+$mobile_m_1up_home_go_left:148;
+$mobile_m_1up_home_go_top:534;
+$mobile_m_1up_home_pd_width:602;
+$mobile_m_1up_home_pd_height:296;
+$mobile_m_1up_home_pd_left:15;
+$mobile_m_1up_home_pd_top:596;
+$mobile_m_1up_game_bg_width:640;
+$mobile_m_1up_game_bg_height:671;
+$mobile_m_1up_game_bg_left:0;
+$mobile_m_1up_game_bg_top:0;
+$mobile_m_1up_game_start_contents_width:425;
+$mobile_m_1up_game_start_contents_height:126;
+$mobile_m_1up_game_start_contents_left:114;
+$mobile_m_1up_game_start_contents_top:534;
+$mobile_m_1up_game_start_start_width:346;
+$mobile_m_1up_game_start_start_height:63;
+$mobile_m_1up_game_start_start_left:148;
+$mobile_m_1up_game_start_start_top:731;
+$mobile_m_1up_game_number_width:118;
+$mobile_m_1up_game_number_height:200;
+$mobile_m_1up_game_number_left:266;
+$mobile_m_1up_game_number_top:215;
+$mobile_m_1up_game_time_width:161;
+$mobile_m_1up_game_time_height:52;
+$mobile_m_1up_game_time_left:241;
+$mobile_m_1up_game_time_top:447;
+$mobile_m_1up_game_contents_width:433;
+$mobile_m_1up_game_contents_height:81;
+$mobile_m_1up_game_contents_left:110;
+$mobile_m_1up_game_contents_top:543;
+$mobile_m_1up_game_hand_width:382;
+$mobile_m_1up_game_hand_height:370;
+$mobile_m_1up_game_hand_left:193;
+$mobile_m_1up_game_hand_top:707;
+$mobile_m_1up_game_success_coupon_width:346;
+$mobile_m_1up_game_success_coupon_height:63;
+$mobile_m_1up_game_success_coupon_left:148;
+$mobile_m_1up_game_success_coupon_top:546;
+$mobile_m_1up_game_fail_again_width:346;
+$mobile_m_1up_game_fail_again_height:63;
+$mobile_m_1up_game_fail_again_left:148;
+$mobile_m_1up_game_fail_again_top:632;
+$mobile_m_1up_game_fail_coupon_width:280;
+$mobile_m_1up_game_fail_coupon_height:30;
+$mobile_m_1up_game_fail_coupon_left:181;
+$mobile_m_1up_game_fail_coupon_top:571;
+$mobile_m_otc_home_title_width:336;
+$mobile_m_otc_home_title_height:256;
+$mobile_m_otc_home_title_left:155;
+$mobile_m_otc_home_title_top:121;
+$mobile_m_otc_home_contents_width:388;
+$mobile_m_otc_home_contents_height:182;
+$mobile_m_otc_home_contents_left:129;
+$mobile_m_otc_home_contents_top:418;
+$mobile_m_otc_home_1up_width:143;
+$mobile_m_otc_home_1up_height:188;
+$mobile_m_otc_home_1up_left:143;
+$mobile_m_otc_home_1up_top:646;
+$mobile_m_otc_home_2up_width:147;
+$mobile_m_otc_home_2up_height:182;
+$mobile_m_otc_home_2up_left:355;
+$mobile_m_otc_home_2up_top:652;
+$mobile_m_2up_coupon_remark_width:591;
+$mobile_m_2up_coupon_remark_height:26;
+$mobile_m_2up_coupon_remark_left:27;
+$mobile_m_2up_coupon_remark_top:130;
+$mobile_m_2up_coupon_coupon1_width:548;
+$mobile_m_2up_coupon_coupon1_height:548;
+$mobile_m_2up_coupon_coupon1_left:48;
+$mobile_m_2up_coupon_coupon1_top:186;
+$mobile_m_2up_coupon_coupon2_width:548;
+$mobile_m_2up_coupon_coupon2_height:548;
+$mobile_m_2up_coupon_coupon2_left:48;
+$mobile_m_2up_coupon_coupon2_top:187;
+$mobile_m_1up_coupon_coupon_width:594;
+$mobile_m_1up_coupon_coupon_height:548;
+$mobile_m_1up_coupon_coupon_left:2;
+$mobile_m_1up_coupon_coupon_top:186;
+$mobile_m_2up_coupon_use_width:254;
+$mobile_m_2up_coupon_use_height:51;
+$mobile_m_2up_coupon_use_left:194;
+$mobile_m_2up_coupon_use_top:799;
+$mobile_m_2up_coupon_add_width:115;
+$mobile_m_2up_coupon_add_height:115;
+$mobile_m_2up_coupon_add_left:264;
+$mobile_m_2up_coupon_add_top:673;
+$mobile_m_2up_coupon_comfirm_use_width:184;
+$mobile_m_2up_coupon_comfirm_use_height:51;
+$mobile_m_2up_coupon_comfirm_use_left:229;
+$mobile_m_2up_coupon_comfirm_use_top:635;
+$mobile_m_2up_coupon_comfirm_cancle_width:184;
+$mobile_m_2up_coupon_comfirm_cancle_height:51;
+$mobile_m_2up_coupon_comfirm_cancle_left:229;
+$mobile_m_2up_coupon_comfirm_cancle_top:694;
+$mobile_m_2up_coupon_comfirm_coupon1_width:548;
+$mobile_m_2up_coupon_comfirm_coupon1_height:548;
+$mobile_m_2up_coupon_comfirm_coupon1_left:48;
+$mobile_m_2up_coupon_comfirm_coupon1_top:187;
+$mobile_m_2up_coupon_comfirm_coupon2_width:548;
+$mobile_m_2up_coupon_comfirm_coupon2_height:548;
+$mobile_m_2up_coupon_comfirm_coupon2_left:48;
+$mobile_m_2up_coupon_comfirm_coupon2_top:187;
+$mobile_m_1up_coupon_comfirm_coupon_width:548;
+$mobile_m_1up_coupon_comfirm_coupon_height:548;
+$mobile_m_1up_coupon_comfirm_coupon_left:48;
+$mobile_m_1up_coupon_comfirm_coupon_top:187;
+$mobile_m_coupon_list_coupon1_width:424;
+$mobile_m_coupon_list_coupon1_height:124;
+$mobile_m_coupon_list_coupon1_left:38;
+$mobile_m_coupon_list_coupon1_top:224;
+$mobile_m_coupon_list_use_width:115;
+$mobile_m_coupon_list_use_height:115;
+$mobile_m_coupon_list_use_left:485;
+$mobile_m_coupon_list_use_top:226;
+$mobile_m_coupon_list_used_width:111;
+$mobile_m_coupon_list_used_height:111;
+$mobile_m_coupon_list_used_left:487;
+$mobile_m_coupon_list_used_top:229;
+
+$mobile_m_coupon_list_title_width:565;
+$mobile_m_coupon_list_title_height:69;
+$mobile_m_coupon_list_title_left:37;
+$mobile_m_coupon_list_title_top:126;
+$mobile_m_facebook_share_share_width:254;
+$mobile_m_facebook_share_share_height:51;
+$mobile_m_facebook_share_share_left:191;
+$mobile_m_facebook_share_share_top:646;
+$mobile_m_facebook_share_contents_width:548;
+$mobile_m_facebook_share_contents_height:548;
+$mobile_m_facebook_share_contents_left:48;
+$mobile_m_facebook_share_contents_top:212;
+$mobile_nav_exchange_width:129;
+$mobile_nav_exchange_height:37;
+$mobile_nav_exchange_left:498;
+$mobile_nav_exchange_top:15;
+$mobile_nav_home_width:129;
+$mobile_nav_home_height:37;
+$mobile_nav_home_left:361;
+$mobile_nav_home_top:15;
+$mobile_logo_width:133;
+$mobile_logo_height:63;
+$mobile_logo_left:27;
+$mobile_logo_top:21;
+#mobile #bg {
+@include customDive($mobile_bg_left,$mobile_bg_top,$mobile_bg_width,$mobile_bg_height);
+}
+#mobile #bg-snow {
+@include customDive($mobile_bg-snow_left,$mobile_bg-snow_top,$mobile_bg-snow_width,$mobile_bg-snow_height);
+}
+#mobile #m_2up_home_title {
+@include customDive($mobile_m_2up_home_title_left,$mobile_m_2up_home_title_top,$mobile_m_2up_home_title_width,$mobile_m_2up_home_title_height);
+}
+#mobile #m_2up_home_contents {
+@include customDive($mobile_m_2up_home_contents_left,$mobile_m_2up_home_contents_top,$mobile_m_2up_home_contents_width,$mobile_m_2up_home_contents_height);
+}
+#mobile #m_2up_home_go {
+@include customDive($mobile_m_2up_home_go_left,$mobile_m_2up_home_go_top,$mobile_m_2up_home_go_width,$mobile_m_2up_home_go_height);
+}
+#mobile #m_2up_home_pd {
+@include customDive($mobile_m_2up_home_pd_left,$mobile_m_2up_home_pd_top,$mobile_m_2up_home_pd_width,$mobile_m_2up_home_pd_height);
+}
+#mobile #m_2up_copylink_pd {
+@include customDive($mobile_m_2up_copylink_pd_left,$mobile_m_2up_copylink_pd_top,$mobile_m_2up_copylink_pd_width,$mobile_m_2up_copylink_pd_height);
+}
+#mobile #m_2up_copylink_title {
+@include customDive($mobile_m_2up_copylink_title_left,$mobile_m_2up_copylink_title_top,$mobile_m_2up_copylink_title_width,$mobile_m_2up_copylink_title_height);
+}
+#mobile #m_2up_copylink_line_share {
+@include customDive($mobile_m_2up_copylink_line_share_left,$mobile_m_2up_copylink_line_share_top,$mobile_m_2up_copylink_line_share_width,$mobile_m_2up_copylink_line_share_height);
+}
+#mobile #m_2up_copylink_me_cell {
+@include customDive($mobile_m_2up_copylink_me_cell_left,$mobile_m_2up_copylink_me_cell_top,$mobile_m_2up_copylink_me_cell_width,$mobile_m_2up_copylink_me_cell_height);
+}
+#mobile #m_2up_copylink_friend_cell {
+@include customDive($mobile_m_2up_copylink_friend_cell_left,$mobile_m_2up_copylink_friend_cell_top,$mobile_m_2up_copylink_friend_cell_width,$mobile_m_2up_copylink_friend_cell_height);
+}
+#mobile #m_2up_copylink_qrcode {
+@include customDive($mobile_m_2up_copylink_qrcode_left,$mobile_m_2up_copylink_qrcode_top,$mobile_m_2up_copylink_qrcode_width,$mobile_m_2up_copylink_qrcode_height);
+}
+#mobile #m_2up_copylink_contents {
+@include customDive($mobile_m_2up_copylink_contents_left,$mobile_m_2up_copylink_contents_top,$mobile_m_2up_copylink_contents_width,$mobile_m_2up_copylink_contents_height);
+}
+#mobile #m_2up_err_contents {
+@include customDive($mobile_m_2up_err_contents_left,$mobile_m_2up_err_contents_top,$mobile_m_2up_err_contents_width,$mobile_m_2up_err_contents_height);
+}
+#mobile #m_2up_err_ico {
+@include customDive($mobile_m_2up_err_ico_left,$mobile_m_2up_err_ico_top,$mobile_m_2up_err_ico_width,$mobile_m_2up_err_ico_height);
+}
+#mobile #m_2up_game_bg {
+@include customDive($mobile_m_2up_game_bg_left,$mobile_m_2up_game_bg_top,$mobile_m_2up_game_bg_width,$mobile_m_2up_game_bg_height);
+}
+#mobile #m_2up_game_contents {
+@include customDive($mobile_m_2up_game_contents_left,$mobile_m_2up_game_contents_top,$mobile_m_2up_game_contents_width,$mobile_m_2up_game_contents_height);
+}
+#mobile #m_2up_game_countdown {
+@include customDive($mobile_m_2up_game_countdown_left,$mobile_m_2up_game_countdown_top,$mobile_m_2up_game_countdown_width,$mobile_m_2up_game_countdown_height);
+}
+#mobile #m_2up_game_hand {
+@include customDive($mobile_m_2up_game_hand_left,$mobile_m_2up_game_hand_top,$mobile_m_2up_game_hand_width,$mobile_m_2up_game_hand_height);
+}
+#mobile #m_2up_game_time {
+@include customDive($mobile_m_2up_game_time_left,$mobile_m_2up_game_time_top,$mobile_m_2up_game_time_width,$mobile_m_2up_game_time_height);
+}
+#mobile #m_2up_game_contents {
+@include customDive($mobile_m_2up_game_contents_left,$mobile_m_2up_game_contents_top,$mobile_m_2up_game_contents_width,$mobile_m_2up_game_contents_height);
+}
+#mobile #m_2up_game_number {
+@include customDive($mobile_m_2up_game_number_left,$mobile_m_2up_game_number_top,$mobile_m_2up_game_number_width,$mobile_m_2up_game_number_height);
+}
+#mobile #m_2up_game_ico {
+@include customDive($mobile_m_2up_game_ico_left,$mobile_m_2up_game_ico_top,$mobile_m_2up_game_ico_width,$mobile_m_2up_game_ico_height);
+}
+#mobile #m_2up_result_me_bg {
+@include customDive($mobile_m_2up_result_me_bg_left,$mobile_m_2up_result_me_bg_top,$mobile_m_2up_result_me_bg_width,$mobile_m_2up_result_me_bg_height);
+}
+#mobile #m_2up_result_me_title {
+@include customDive($mobile_m_2up_result_me_title_left,$mobile_m_2up_result_me_title_top,$mobile_m_2up_result_me_title_width,$mobile_m_2up_result_me_title_height);
+}
+#mobile #m_2up_result_me_img {
+    background-size: cover;
+    border: 1px solid #f8d794;
+    background-image: url('../img/mobile/m_2up_result_me_img.png');
+@include customDive($mobile_m_2up_result_me_img_left,$mobile_m_2up_result_me_img_top,$mobile_m_2up_result_me_img_width,$mobile_m_2up_result_me_img_height);
+}
+#mobile #m_2up_result_me_friend {
+@include customDive($mobile_m_2up_result_me_friend_left,$mobile_m_2up_result_me_friend_top,$mobile_m_2up_result_me_friend_width,$mobile_m_2up_result_me_friend_height);
+}
+#mobile #m_2up_result_me_number {
+    text-align: center;
+    font-size: 54px;
+    line-height: 46px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
+@include customDive($mobile_m_2up_result_me_number_left,$mobile_m_2up_result_me_number_top,$mobile_m_2up_result_me_number_width,$mobile_m_2up_result_me_number_height);
+}
+#mobile #m_2up_result_me_coupon {
+@include customDive($mobile_m_2up_result_me_coupon_left,$mobile_m_2up_result_me_coupon_top,$mobile_m_2up_result_me_coupon_width,$mobile_m_2up_result_me_coupon_height);
+}
+#mobile #m_2up_result_me_total_number {
+    text-align: center;
+    font-size: 217px;
+    line-height: 206px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
+@include customDive($mobile_m_2up_result_me_total_number_left,$mobile_m_2up_result_me_total_number_top,$mobile_m_2up_result_me_total_number_width,$mobile_m_2up_result_me_total_number_height);
+}
+#mobile #m_2up_result_friend_bg {
+@include customDive($mobile_m_2up_result_friend_bg_left,$mobile_m_2up_result_friend_bg_top,$mobile_m_2up_result_friend_bg_width,$mobile_m_2up_result_friend_bg_height);
+}
+#mobile #m_2up_result_friend_title {
+@include customDive($mobile_m_2up_result_friend_title_left,$mobile_m_2up_result_friend_title_top,$mobile_m_2up_result_friend_title_width,$mobile_m_2up_result_friend_title_height);
+}
+#mobile #m_2up_result_friend_img {
+    background-size: cover;
+    border: 1px solid #f8d794;
+    background-image: url('../img/mobile/m_2up_result_me_img.png');
+@include customDive($mobile_m_2up_result_friend_img_left,$mobile_m_2up_result_friend_img_top,$mobile_m_2up_result_friend_img_width,$mobile_m_2up_result_friend_img_height);
+}
+#mobile #m_2up_result_friend_friend {
+@include customDive($mobile_m_2up_result_friend_friend_left,$mobile_m_2up_result_friend_friend_top,$mobile_m_2up_result_friend_friend_width,$mobile_m_2up_result_friend_friend_height);
+}
+#mobile #m_2up_result_friend_number {
+    text-align: center;
+    font-size: 54px;
+    line-height: 46px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
+@include customDive($mobile_m_2up_result_friend_number_left,$mobile_m_2up_result_friend_number_top,$mobile_m_2up_result_friend_number_width,$mobile_m_2up_result_friend_number_height);
+}
+#mobile #m_2up_result_friend_total_numbe {
+    text-align: center;
+    font-size: 217px;
+    line-height: 206px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
+@include customDive($mobile_m_2up_result_friend_total_numbe_left,$mobile_m_2up_result_friend_total_numbe_top,$mobile_m_2up_result_friend_total_numbe_width,$mobile_m_2up_result_friend_total_numbe_height);
+}
+#mobile #m_2up_result_friend_contents {
+@include customDive($mobile_m_2up_result_friend_contents_left,$mobile_m_2up_result_friend_contents_top,$mobile_m_2up_result_friend_contents_width,$mobile_m_2up_result_friend_contents_height);
+}
+#mobile #m_2up_fail_bg {
+@include customDive($mobile_m_2up_fail_bg_left,$mobile_m_2up_fail_bg_top,$mobile_m_2up_fail_bg_width,$mobile_m_2up_fail_bg_height);
+}
+#mobile #m_2up_fail_title {
+@include customDive($mobile_m_2up_fail_title_left,$mobile_m_2up_fail_title_top,$mobile_m_2up_fail_title_width,$mobile_m_2up_fail_title_height);
+}
+#mobile #m_2up_fail_img {
+@include customDive($mobile_m_2up_fail_img_left,$mobile_m_2up_fail_img_top,$mobile_m_2up_fail_img_width,$mobile_m_2up_fail_img_height);
+}
+#mobile #m_2up_fail_friend {
+@include customDive($mobile_m_2up_fail_friend_left,$mobile_m_2up_fail_friend_top,$mobile_m_2up_fail_friend_width,$mobile_m_2up_fail_friend_height);
+}
+#mobile #m_2up_fail_number {
+@include customDive($mobile_m_2up_fail_number_left,$mobile_m_2up_fail_number_top,$mobile_m_2up_fail_number_width,$mobile_m_2up_fail_number_height);
+}
+#mobile #m_2up_fail_total_number {
+@include customDive($mobile_m_2up_fail_total_number_left,$mobile_m_2up_fail_total_number_top,$mobile_m_2up_fail_total_number_width,$mobile_m_2up_fail_total_number_height);
+}
+#mobile #m_2up_fail_total_again {
+@include customDive($mobile_m_2up_fail_total_again_left,$mobile_m_2up_fail_total_again_top,$mobile_m_2up_fail_total_again_width,$mobile_m_2up_fail_total_again_height);
+}
+#mobile #m_2up_fail_total_remark {
+@include customDive($mobile_m_2up_fail_total_remark_left,$mobile_m_2up_fail_total_remark_top,$mobile_m_2up_fail_total_remark_width,$mobile_m_2up_fail_total_remark_height);
+}
+#mobile #m_1up_home_title {
+@include customDive($mobile_m_1up_home_title_left,$mobile_m_1up_home_title_top,$mobile_m_1up_home_title_width,$mobile_m_1up_home_title_height);
+}
+#mobile #m_1up_home_contents {
+@include customDive($mobile_m_1up_home_contents_left,$mobile_m_1up_home_contents_top,$mobile_m_1up_home_contents_width,$mobile_m_1up_home_contents_height);
+}
+#mobile #m_1up_home_go {
+@include customDive($mobile_m_1up_home_go_left,$mobile_m_1up_home_go_top,$mobile_m_1up_home_go_width,$mobile_m_1up_home_go_height);
+}
+#mobile #m_1up_home_pd {
+@include customDive($mobile_m_1up_home_pd_left,$mobile_m_1up_home_pd_top,$mobile_m_1up_home_pd_width,$mobile_m_1up_home_pd_height);
+}
+#mobile #m_1up_game_bg {
+@include customDive($mobile_m_1up_game_bg_left,$mobile_m_1up_game_bg_top,$mobile_m_1up_game_bg_width,$mobile_m_1up_game_bg_height);
+}
+#mobile #m_1up_game_start_contents {
+@include customDive($mobile_m_1up_game_start_contents_left,$mobile_m_1up_game_start_contents_top,$mobile_m_1up_game_start_contents_width,$mobile_m_1up_game_start_contents_height);
+}
+#mobile #m_1up_game_start_start {
+@include customDive($mobile_m_1up_game_start_start_left,$mobile_m_1up_game_start_start_top,$mobile_m_1up_game_start_start_width,$mobile_m_1up_game_start_start_height);
+}
+#mobile #m_1up_game_number {
+@include customDive($mobile_m_1up_game_number_left,$mobile_m_1up_game_number_top,$mobile_m_1up_game_number_width,$mobile_m_1up_game_number_height);
+}
+#mobile #m_1up_game_time {
+@include customDive($mobile_m_1up_game_time_left,$mobile_m_1up_game_time_top,$mobile_m_1up_game_time_width,$mobile_m_1up_game_time_height);
+}
+#mobile #m_1up_game_contents {
+@include customDive($mobile_m_1up_game_contents_left,$mobile_m_1up_game_contents_top,$mobile_m_1up_game_contents_width,$mobile_m_1up_game_contents_height);
+}
+#mobile #m_1up_game_hand {
+@include customDive($mobile_m_1up_game_hand_left,$mobile_m_1up_game_hand_top,$mobile_m_1up_game_hand_width,$mobile_m_1up_game_hand_height);
+}
+#mobile #m_1up_game_success_coupon {
+@include customDive($mobile_m_1up_game_success_coupon_left,$mobile_m_1up_game_success_coupon_top,$mobile_m_1up_game_success_coupon_width,$mobile_m_1up_game_success_coupon_height);
+}
+#mobile #m_1up_game_fail_again {
+@include customDive($mobile_m_1up_game_fail_again_left,$mobile_m_1up_game_fail_again_top,$mobile_m_1up_game_fail_again_width,$mobile_m_1up_game_fail_again_height);
+}
+#mobile #m_1up_game_fail_coupon {
+@include customDive($mobile_m_1up_game_fail_coupon_left,$mobile_m_1up_game_fail_coupon_top,$mobile_m_1up_game_fail_coupon_width,$mobile_m_1up_game_fail_coupon_height);
+}
+#mobile #m_otc_home_title {
+@include customDive($mobile_m_otc_home_title_left,$mobile_m_otc_home_title_top,$mobile_m_otc_home_title_width,$mobile_m_otc_home_title_height);
+}
+#mobile #m_otc_home_contents {
+@include customDive($mobile_m_otc_home_contents_left,$mobile_m_otc_home_contents_top,$mobile_m_otc_home_contents_width,$mobile_m_otc_home_contents_height);
+}
+#mobile #m_otc_home_1up {
+@include customDive($mobile_m_otc_home_1up_left,$mobile_m_otc_home_1up_top,$mobile_m_otc_home_1up_width,$mobile_m_otc_home_1up_height);
+}
+#mobile #m_otc_home_2up {
+@include customDive($mobile_m_otc_home_2up_left,$mobile_m_otc_home_2up_top,$mobile_m_otc_home_2up_width,$mobile_m_otc_home_2up_height);
+}
+#mobile #m_2up_coupon_remark {
+@include customDive($mobile_m_2up_coupon_remark_left,$mobile_m_2up_coupon_remark_top,$mobile_m_2up_coupon_remark_width,$mobile_m_2up_coupon_remark_height);
+}
+#mobile #m_2up_coupon_coupon1 {
+@include customDive($mobile_m_2up_coupon_coupon1_left,$mobile_m_2up_coupon_coupon1_top,$mobile_m_2up_coupon_coupon1_width,$mobile_m_2up_coupon_coupon1_height);
+}
+#mobile #m_2up_coupon_coupon2 {
+@include customDive($mobile_m_2up_coupon_coupon2_left,$mobile_m_2up_coupon_coupon2_top,$mobile_m_2up_coupon_coupon2_width,$mobile_m_2up_coupon_coupon2_height);
+}
+#mobile #m_1up_coupon_coupon {
+@include customDive($mobile_m_1up_coupon_coupon_left,$mobile_m_1up_coupon_coupon_top,$mobile_m_1up_coupon_coupon_width,$mobile_m_1up_coupon_coupon_height);
+}
+#mobile #m_2up_coupon_use {
+@include customDive($mobile_m_2up_coupon_use_left,$mobile_m_2up_coupon_use_top,$mobile_m_2up_coupon_use_width,$mobile_m_2up_coupon_use_height);
+}
+#mobile #m_2up_coupon_add {
+@include customDive($mobile_m_2up_coupon_add_left,$mobile_m_2up_coupon_add_top,$mobile_m_2up_coupon_add_width,$mobile_m_2up_coupon_add_height);
+}
+#mobile #m_2up_coupon_comfirm_use {
+@include customDive($mobile_m_2up_coupon_comfirm_use_left,$mobile_m_2up_coupon_comfirm_use_top,$mobile_m_2up_coupon_comfirm_use_width,$mobile_m_2up_coupon_comfirm_use_height);
+}
+#mobile #m_2up_coupon_comfirm_cancle {
+@include customDive($mobile_m_2up_coupon_comfirm_cancle_left,$mobile_m_2up_coupon_comfirm_cancle_top,$mobile_m_2up_coupon_comfirm_cancle_width,$mobile_m_2up_coupon_comfirm_cancle_height);
+}
+#mobile #m_2up_coupon_comfirm_coupon1 {
+@include customDive($mobile_m_2up_coupon_comfirm_coupon1_left,$mobile_m_2up_coupon_comfirm_coupon1_top,$mobile_m_2up_coupon_comfirm_coupon1_width,$mobile_m_2up_coupon_comfirm_coupon1_height);
+}
+#mobile #m_2up_coupon_comfirm_coupon2 {
+@include customDive($mobile_m_2up_coupon_comfirm_coupon2_left,$mobile_m_2up_coupon_comfirm_coupon2_top,$mobile_m_2up_coupon_comfirm_coupon2_width,$mobile_m_2up_coupon_comfirm_coupon2_height);
+}
+#mobile #m_1up_coupon_comfirm_coupon {
+@include customDive($mobile_m_1up_coupon_comfirm_coupon_left,$mobile_m_1up_coupon_comfirm_coupon_top,$mobile_m_1up_coupon_comfirm_coupon_width,$mobile_m_1up_coupon_comfirm_coupon_height);
+}
+#mobile #m_coupon_list_coupon1 {
+@include customDive($mobile_m_coupon_list_coupon1_left,$mobile_m_coupon_list_coupon1_top,$mobile_m_coupon_list_coupon1_width,$mobile_m_coupon_list_coupon1_height);
+}
+#mobile #m_coupon_list_use {
+@include customDive($mobile_m_coupon_list_use_left,$mobile_m_coupon_list_use_top,$mobile_m_coupon_list_use_width,$mobile_m_coupon_list_use_height);
+}
+#mobile #m_coupon_list_used {
+@include customDive($mobile_m_coupon_list_used_left,$mobile_m_coupon_list_used_top,$mobile_m_coupon_list_used_width,$mobile_m_coupon_list_used_height);
+}
+#m_coupon_list_remark{
+    margin: 35px;
+}
+body{
+    background-image: url('../img/mobile/bg.jpg');
+    background-repeat: repeat-y;
+}
+@import "compass/utilities/general/clearfix";
+#m_coupon_list_container{
+    position: absolute;
+    top: 195px;
+    left: 38px;
+    
+    width: 565px;
+    .m_coupon_list_item{
+        margin-top: 31px;
+        @include clearfix;
+        width: 565px;
+        border-bottom-style: solid;
+        border-bottom-color:  #f1c286;
+        border-bottom-width:1px;
+        .m_coupon_list_item_img{
+            //position: absolute;
+            float: left;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        .m_coupon_list_item_id{            
+            position: absolute;
+            top: 84px;
+            left: 220px;
+            
+            font-size: 18px;
+            width: 270px;
+            color: #FFF;
+        }
+        .m_coupon_list_item_btn{
+            float: right;
+            background-image: url("../img/mobile/m_coupon_list_use.png");
+            width: 115px;
+            height: 115px;
+        }
+        .couponuse{
+            background-image: url("../img/mobile/m_coupon_list_used.png");
+        }
+    }
+}
+#mobile #m_coupon_list_title {
+@include customDive($mobile_m_coupon_list_title_left,$mobile_m_coupon_list_title_top,$mobile_m_coupon_list_title_width,$mobile_m_coupon_list_title_height);
+}
+#mobile #m_facebook_share_share {
+@include customDive($mobile_m_facebook_share_share_left,$mobile_m_facebook_share_share_top,$mobile_m_facebook_share_share_width,$mobile_m_facebook_share_share_height);
+}
+#mobile #m_facebook_share_contents {
+@include customDive($mobile_m_facebook_share_contents_left,$mobile_m_facebook_share_contents_top,$mobile_m_facebook_share_contents_width,$mobile_m_facebook_share_contents_height);
+}
+#mobile #nav_exchange {
+@include customDive($mobile_nav_exchange_left,$mobile_nav_exchange_top,$mobile_nav_exchange_width,$mobile_nav_exchange_height);
+}
+#mobile #nav_home {
+@include customDive($mobile_nav_home_left,$mobile_nav_home_top,$mobile_nav_home_width,$mobile_nav_home_height);
+}
+#mobile #logo {
+@include customDive($mobile_logo_left,$mobile_logo_top,$mobile_logo_width,$mobile_logo_height);
+}
+
