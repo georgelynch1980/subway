@@ -172,14 +172,17 @@ $mobile_m_2up_fail_friend_width:477;
 $mobile_m_2up_fail_friend_height:78;
 $mobile_m_2up_fail_friend_left:83;
 $mobile_m_2up_fail_friend_top:536;
-$mobile_m_2up_fail_number_width:185;
-$mobile_m_2up_fail_number_height:43;
-$mobile_m_2up_fail_number_left:227;
+
+$mobile_m_2up_fail_number_width:250;
+$mobile_m_2up_fail_number_height:50;
+$mobile_m_2up_fail_number_left:194;
 $mobile_m_2up_fail_number_top:555;
+
 $mobile_m_2up_fail_total_number_width:354;
 $mobile_m_2up_fail_total_number_height:200;
 $mobile_m_2up_fail_total_number_left:144;
 $mobile_m_2up_fail_total_number_top:215;
+
 $mobile_m_2up_fail_total_again_width:346;
 $mobile_m_2up_fail_total_again_height:63;
 $mobile_m_2up_fail_total_again_left:148;
@@ -393,18 +396,44 @@ $mobile_logo_top:21;
 @include customDive($mobile_m_2up_game_contents_left,$mobile_m_2up_game_contents_top,$mobile_m_2up_game_contents_width,$mobile_m_2up_game_contents_height);
 }
 #mobile #m_2up_game_countdown {
+    text-align: center;
+    font-size: 98px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_2up_game_countdown_left,$mobile_m_2up_game_countdown_top,$mobile_m_2up_game_countdown_width,$mobile_m_2up_game_countdown_height);
+    width: 355px;
+    left: 147px;
 }
-#mobile #m_2up_game_hand {
-@include customDive($mobile_m_2up_game_hand_left,$mobile_m_2up_game_hand_top,$mobile_m_2up_game_hand_width,$mobile_m_2up_game_hand_height);
+#m_2up_game_hand_container{
+    @include customDive($mobile_m_2up_game_hand_left,$mobile_m_2up_game_hand_top,$mobile_m_2up_game_hand_width,$mobile_m_2up_game_hand_height);
+    top: 637px;
+    left: 193px;
+    width: 382px;
+    height: 323px;
+    #m_2up_game_hand {
+        margin-top: 30px;
+
+        width: 382px;
+        height: 370px;
+        //@include customDive($mobile_m_2up_game_hand_left,$mobile_m_2up_game_hand_top,$mobile_m_2up_game_hand_width,$mobile_m_2up_game_hand_height);
+    }
 }
 #mobile #m_2up_game_time {
+    font-size: 53px;
+    text-align: center;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #f8d794;
 @include customDive($mobile_m_2up_game_time_left,$mobile_m_2up_game_time_top,$mobile_m_2up_game_time_width,$mobile_m_2up_game_time_height);
 }
 #mobile #m_2up_game_contents {
 @include customDive($mobile_m_2up_game_contents_left,$mobile_m_2up_game_contents_top,$mobile_m_2up_game_contents_width,$mobile_m_2up_game_contents_height);
 }
 #mobile #m_2up_game_number {
+    font-size: 149px;
+    text-align: center;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_2up_game_number_left,$mobile_m_2up_game_number_top,$mobile_m_2up_game_number_width,$mobile_m_2up_game_number_height);
 }
 #mobile #m_2up_game_ico {
@@ -485,21 +514,38 @@ $mobile_logo_top:21;
 @include customDive($mobile_m_2up_fail_title_left,$mobile_m_2up_fail_title_top,$mobile_m_2up_fail_title_width,$mobile_m_2up_fail_title_height);
 }
 #mobile #m_2up_fail_img {
+    background-size: cover;
+    border: 1px solid #f8d794;
+    background-image: url('../img/mobile/m_2up_result_me_img.png');
 @include customDive($mobile_m_2up_fail_img_left,$mobile_m_2up_fail_img_top,$mobile_m_2up_fail_img_width,$mobile_m_2up_fail_img_height);
 }
 #mobile #m_2up_fail_friend {
 @include customDive($mobile_m_2up_fail_friend_left,$mobile_m_2up_fail_friend_top,$mobile_m_2up_fail_friend_width,$mobile_m_2up_fail_friend_height);
 }
 #mobile #m_2up_fail_number {
+    text-align: center;
+    font-size: 54px;
+    line-height: 46px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_2up_fail_number_left,$mobile_m_2up_fail_number_top,$mobile_m_2up_fail_number_width,$mobile_m_2up_fail_number_height);
 }
 #mobile #m_2up_fail_total_number {
+    text-align: center;
+    font-size: 217px;
+    line-height: 206px;
+    color: #f8d794;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_2up_fail_total_number_left,$mobile_m_2up_fail_total_number_top,$mobile_m_2up_fail_total_number_width,$mobile_m_2up_fail_total_number_height);
 }
 #mobile #m_2up_fail_total_again {
 @include customDive($mobile_m_2up_fail_total_again_left,$mobile_m_2up_fail_total_again_top,$mobile_m_2up_fail_total_again_width,$mobile_m_2up_fail_total_again_height);
 }
 #mobile #m_2up_fail_total_remark {
+    color: #f8d794;
+    text-align: center;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_2up_fail_total_remark_left,$mobile_m_2up_fail_total_remark_top,$mobile_m_2up_fail_total_remark_width,$mobile_m_2up_fail_total_remark_height);
 }
 #mobile #m_1up_home_title {
@@ -542,6 +588,10 @@ $mobile_logo_top:21;
 @include customDive($mobile_m_1up_game_fail_again_left,$mobile_m_1up_game_fail_again_top,$mobile_m_1up_game_fail_again_width,$mobile_m_1up_game_fail_again_height);
 }
 #mobile #m_1up_game_fail_coupon {
+    color: #f8d794;
+    text-align: center;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
 @include customDive($mobile_m_1up_game_fail_coupon_left,$mobile_m_1up_game_fail_coupon_top,$mobile_m_1up_game_fail_coupon_width,$mobile_m_1up_game_fail_coupon_height);
 }
 #mobile #m_otc_home_title {

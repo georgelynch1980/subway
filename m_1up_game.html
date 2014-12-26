@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Subway 解FUN冬天  一起新鮮動吃動吃</title>
+    <title>Subway 解FUN冬天 一起新鮮動吃動吃</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />  
+    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
     <!--for mobile,it's website can delete this line-->
     <meta name="viewport" content="width=640, user-scalable=no">
 
@@ -30,38 +30,58 @@
         <div id="bg-snow">
             <img src="img/mobile/bg-snow.png" />
         </div>
-        
+
         <div id="m_1up_game_bg">
             <img src="img/mobile/m_1up_game_bg.png" />
         </div>
         <div id="m_1up_game_start_contents">
             <img src="img/mobile/m_1up_game_start_contents.png" />
         </div>
-        <div id="m_1up_game_start_start">
-            <img src="img/mobile/m_1up_game_start_start.png" />
-        </div>
+
         <div id="m_1up_game_number">
             <img src="img/mobile/m_1up_game_number.png" />
         </div>
-        <div id="m_1up_game_time">
+        <div id="m_2up_game_time">
+            00:60
+            <!--<img src="img/mobile/m_2up_game_time.png" />-->
+        </div>
+        <!--<div id="m_1up_game_time">
             <img src="img/mobile/m_1up_game_time.png" />
+        </div>-->
+        <div id="m_2up_game_number">0
+            <!--<img src="img/mobile/m_2up_game_number.png" />-->
         </div>
         <div id="m_1up_game_contents">
             <img src="img/mobile/m_1up_game_contents.png" />
         </div>
-        <div id="m_1up_game_hand">
+        <!--<div id="m_1up_game_hand">
             <img src="img/mobile/m_1up_game_hand.png" />
+        </div>-->
+        <div id="m_2up_game_hand_container">
+            <div id="m_2up_game_hand">
+                <img src="img/mobile/m_2up_game_hand.png" />
+            </div>
         </div>
         <div id="m_1up_game_success_coupon">
-            <img src="img/mobile/m_1up_game_success_coupon.png" />
+            <a href="m_coupon.html">
+                <img src="img/mobile/m_1up_game_success_coupon.png" />
+            </a>
         </div>
         <div id="m_1up_game_fail_again">
             <img src="img/mobile/m_1up_game_fail_again.png" />
         </div>
-        <div id="m_1up_game_fail_coupon">
-            <img src="img/mobile/m_1up_game_fail_coupon.png" />
+        <div id="m_1up_game_fail_coupon">           
+           差<span id="m_1up_fail_total_remark_more">10</span>分就有優惠囉！
+            <!--<img src="img/mobile/m_1up_game_fail_coupon.png" />-->
         </div>
-        
+        <div id="m_2up_game_countdown">
+            3
+            <!--<img src="img/mobile/m_2up_game_countdown.png" />-->
+        </div>
+        <div id="m_1up_game_start_start">
+            <img src="img/mobile/m_1up_game_start_start.png" />
+        </div>
+
         <!--<div id="nav_exchange">
             <a href="m_coupon_list.html"  target="_self">
                 <img src="img/mobile/nav_exchange.png" />
@@ -74,6 +94,14 @@
             <img src="img/mobile/logo.png" />
         </div>
     </div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.queryloader2.js"></script>
+    <script src="js/BaseUtil.min.js"></script>
+    <script src="js/shake.js"></script>
+    <script src="js/UserAgent.js"></script>
+    <script src="js/purl.js"></script>
+    <script src="js/greensock/TweenMax.js"></script>
+    <script src="js/subway/m_1up_game.js"></script>
 </body>
 
 </html>
