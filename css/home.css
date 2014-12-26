@@ -89,7 +89,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 50%;
   margin-left: -640px;
   margin-top: -415px;
-  overflow: auto; }
+  overflow: hidden; }
   @media screen and (max-width: 1048px) {
     /* line 31, ../sass/home.scss */
     #home {
@@ -103,7 +103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       top: -56px;
       margin-top: 0px;
       overflow: hidden; } }
-  /* line 56, ../sass/home.scss */
+  /* line 58, ../sass/home.scss */
   #home #product {
     position: absolute;
     overflow: hidden;
@@ -111,7 +111,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left: 248px;
     width: 789px;
     height: 387px; }
-  /* line 59, ../sass/home.scss */
+  /* line 61, ../sass/home.scss */
   #home #title {
     position: absolute;
     overflow: hidden;
@@ -119,7 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left: 481px;
     width: 318px;
     height: 319px; }
-  /* line 62, ../sass/home.scss */
+  /* line 64, ../sass/home.scss */
   #home #play_game_1up {
     cursor: pointer;
     position: absolute;
@@ -128,7 +128,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left: 370px;
     width: 96px;
     height: 126px; }
-  /* line 66, ../sass/home.scss */
+  /* line 68, ../sass/home.scss */
   #home #play_game_2up {
     cursor: pointer;
     position: absolute;
@@ -137,7 +137,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left: 818px;
     width: 99px;
     height: 122px; }
-  /* line 70, ../sass/home.scss */
+  /* line 72, ../sass/home.scss */
   #home #SP {
     position: absolute;
     overflow: hidden;

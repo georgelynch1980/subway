@@ -115,6 +115,7 @@ body{
 
 
 #card {
+    overflow: hidden;
     @include customDive($home_card_left,$home_card_top,$home_card_width,$home_card_height);
 }
 
