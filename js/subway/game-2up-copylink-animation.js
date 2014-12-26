@@ -10,10 +10,17 @@
 //           ░     ░ ░      ░  ░
 //   
 $(document).ready(function () {
-    $("#login_fb").click(function(){
-        
-    });
-    
-    
-    
+    //----------------------------preload---------------------------------------------------
+    var _options = {
+        barHeight: 0,
+        percentage: true,
+        onProgress: function (e) {
+            //console.log(e);
+        },
+        onComplete: function () {            
+            $("#preloading").fadeOut();
+            //console.log("preload onCompleted");
+        }
+    };
+    $("body").queryLoader2(_options);
 });
