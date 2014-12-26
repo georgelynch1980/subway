@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Subway 解FUN冬天 一起新鮮動吃動吃</title>
+    <title>Subway 解FUN冬天  一起新鮮動吃動吃</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
+    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />    
 
     <!--facebook meta-->
     <meta property="og:title" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
@@ -18,35 +18,41 @@
 
     <!--css-->
     <link rel="stylesheet" href="css/common.css" type="text/css">
-    <link rel="stylesheet" href="css/game_2up_err.css" type="text/css">
+    <link rel="stylesheet" href="css/rule.css" type="text/css">
     <!--end of css-->
 
 
 </head>
 
 <body>
-    <div id="game_2up_err">
+    <div id="rule">
         <div id="card">
             <img src="img/home/card.png" />
         </div>
-        
-        
-               
-        <div id="err_contents">
-            <img src="img/game_2up_start/err_contents.png" />
-            你的好友<spand id=fb_name>OOO</spand>，正在等待跟您一起新鮮動吃動！
+        <div id="border">
+            <img src="img/rule/border.png" />
         </div>
         <div id="title">
-            <img src="img/game_1up_start/title.png" />
+            <img src="img/rule/title.png" />
         </div>
-        
+        <div id="contents">
+            <div class="scrollbar">
+                <div class="track">
+                    <div class="thumb">
+                        <!--<div class="end"></div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="viewport">
+                <div class="overview">
+                    <img src="img/rule/contents.png" />
+                </div>
+            </div>
+        </div>
         <div id="logo">
             <img src="img/home/logo.png" />
         </div>
     </div>
-
-
-
 
 
     <div id="nav">
@@ -54,13 +60,13 @@
         <a href="http://www.twsubway.com/www/include/index.php" target="_blank">
             <div id="nav_website" class="buttons-nav_website"></div>
         </a>
-        <a href="top10.html" target="_self">
+        <a href="a_top10.html" target="_self">
             <div id="nav_top10" class="buttons-nav_top10"></div>
         </a>
-        <a href="rule.html" target="_self">
-            <div id="nav_rule" class="buttons-nav_rule"></div>
-        </a>
-        <a href="index.html" target="_self">
+
+        <div id="nav_rule" class="buttons-nav_rule nav_rule_active"></div>
+
+        <a href="a_index.html" target="_self">
             <div id="nav_home" class="buttons-nav_home"></div>
         </a>
     </div>
@@ -73,13 +79,13 @@
     <script src="js/respond.js"></script>
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery.queryloader2.js"></script>
+    <script src="js/jquery.tinyscrollbar.min.js"></script>
     <script src="js/BaseUtil.min.js"></script>
     <script src="js/UserAgent.js"></script>
     <script src="js/purl.js"></script>
     <script src="js/greensock/TweenMax.js"></script>
     <script src="js/subway/navfacebookshare.js"></script>
-    <script src="js/subway/game-2up-start.js"></script>
-    <script src="js/subway/game-2up-start-animation.js"></script>
+    <script src="js/subway/rule.js"></script>
     <!--End of js-->
 </body>
 

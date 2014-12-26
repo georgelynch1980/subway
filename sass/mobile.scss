@@ -451,6 +451,14 @@ $mobile_logo_top:21;
     background-image: url('../img/mobile/m_2up_result_me_img.png');
 @include customDive($mobile_m_2up_result_me_img_left,$mobile_m_2up_result_me_img_top,$mobile_m_2up_result_me_img_width,$mobile_m_2up_result_me_img_height);
 }
+
+#fb_name{
+    position: absolute;
+    top: 50px;
+    left: 72px;
+    color: #f8d794;
+    font-size: 18px;
+}
 #mobile #m_2up_result_me_friend {
 @include customDive($mobile_m_2up_result_me_friend_left,$mobile_m_2up_result_me_friend_top,$mobile_m_2up_result_me_friend_width,$mobile_m_2up_result_me_friend_height);
 }
