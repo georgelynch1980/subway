@@ -123,6 +123,100 @@ body{
     cursor: pointer;
     @include customDive($home_logo_left,$home_logo_top,$home_logo_width,$home_logo_height);
 } 
+#snow{
+    width: 1260px;
+    height: 350px;
+    
+    .snow1{        
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+    }
+    .snow2{        
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -50px;       
+    }
+    .snow3{     
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -100px;        
+    }
+    
+    .snow4{        
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -150px;
+    }
+    .snow5{   
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -200px;
+    }
+    .snow6{       
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -250px; 
+    }
+    .snow7{     
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -300px; 
+    }
+    .snow8{   
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+        background-image: url('../img/common/snow.png');
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: 0px -350px; 
+    }
+}
 
 @import "nav/buttons/*.png";
 @include all-buttons-sprites;

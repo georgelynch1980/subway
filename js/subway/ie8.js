@@ -9,20 +9,9 @@
 //  ░ ░    ░░░ ░ ░ ░        ░ ░░ ░
 //           ░     ░ ░      ░  ░
 //   
+
 $(document).ready(function () {
+    console.log("ie8"); 
 
-
-
-    $("#play_game_1up").click(function () {
-
-    });
-
-    $("#play_game_2up").click(function () {
-
-    });
-
-    
-
-
-
+    $("#ie8").show();
 });

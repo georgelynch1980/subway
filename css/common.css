@@ -173,6 +173,7 @@ body {
 
 /* line 117, ../sass/common.scss */
 #card {
+  overflow: hidden;
   position: absolute;
   overflow: hidden;
   top: 20px;
@@ -180,7 +181,7 @@ body {
   width: 1261px;
   height: 790px; }
 
-/* line 121, ../sass/common.scss */
+/* line 122, ../sass/common.scss */
 #logo {
   cursor: pointer;
   position: absolute;
@@ -189,6 +190,99 @@ body {
   left: 136px;
   width: 133px;
   height: 63px; }
+
+/* line 126, ../sass/common.scss */
+#snow {
+  width: 1260px;
+  height: 350px; }
+  /* line 130, ../sass/common.scss */
+  #snow .snow1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px 0px; }
+  /* line 141, ../sass/common.scss */
+  #snow .snow2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -50px; }
+  /* line 152, ../sass/common.scss */
+  #snow .snow3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -100px; }
+  /* line 164, ../sass/common.scss */
+  #snow .snow4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -150px; }
+  /* line 175, ../sass/common.scss */
+  #snow .snow5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -200px; }
+  /* line 186, ../sass/common.scss */
+  #snow .snow6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -250px; }
+  /* line 197, ../sass/common.scss */
+  #snow .snow7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -300px; }
+  /* line 208, ../sass/common.scss */
+  #snow .snow8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/common/snow.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px -350px; }
 
 /* line 120, nav/buttons/*.png */
 .buttons-sprite, .buttons-nav_fb, .buttons-nav_home, .buttons-nav_rule, .buttons-nav_top10, .buttons-nav_website {
@@ -230,14 +324,14 @@ body {
   .buttons-nav_website:hover, .buttons-nav_website.nav_website-hover {
     background-position: 0 -468px; }
 
-/* line 128, ../sass/common.scss */
+/* line 223, ../sass/common.scss */
 .nav_home_active {
   background-position: 0 -156px; }
 
-/* line 131, ../sass/common.scss */
+/* line 226, ../sass/common.scss */
 .nav_top10_active {
   background-position: 0 -364px; }
 
-/* line 135, ../sass/common.scss */
+/* line 230, ../sass/common.scss */
 .nav_rule_active {
   background-position: 0 -260px; }

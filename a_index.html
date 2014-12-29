@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Subway 解FUN冬天  一起新鮮動吃動吃</title>
+    <title>Subway 解FUN冬天 一起新鮮動吃動吃</title>
     <meta name="keywords" content="" />
-    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />    
+    <meta name="description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
 
     <!--facebook meta-->
     <meta property="og:title" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
@@ -16,9 +16,16 @@
     <meta property="og:description" content="Subway 解FUN冬天  一起新鮮動吃動吃" />
     <!--End of facebook meta-->
 
+
+
+
+
+
     <!--css-->
-    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <!--<link rel="stylesheet" href="outdatedBrowser.min.css"> -->
+    
     <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
     <!--end of css-->
 
 
@@ -33,6 +40,13 @@
         </div>
         <div id="product">
             <img src="img/home/product.png" />
+        </div>
+        <div id="snow">
+            <!--<div id="snow1" class="snow1"></div>
+            <div id="snow2" class="snow2"></div>
+            <div id="snow3" class="snow3"></div>
+            <div id="snow4" class="snow4"></div>
+            <div id="snow5" class="snow5"></div>-->
         </div>
         <div id="title">
             <img src="img/home/title.png" />
@@ -50,6 +64,7 @@
         <div id="SP">
             <img src="img/home/SP.png" />
         </div>
+        
         <div id="logo">
             <img src="img/home/logo.png" />
         </div>
@@ -72,10 +87,18 @@
             <img src="img/common/loading.gif" alt="loading">
         </div>
     </div>
-    <!--js-->
-    <script src="js/respond.js"></script>
+    <div id="ie8" style="z-index:99999;display:none;">
+        <h6>您的瀏覽器已過時</h6>
+        <p>要正常瀏覽本網站請升級您的瀏覽器。<a id="btnUpdateBrowser" href="http://outdatedbrowser.com/cn">現在升級</a></p>        
+        <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="關閉">&times;</a></p>
+    </div>
+
+
     <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery.queryloader2.js"></script>
+    <!--[if gte IE 9]>
+    <script src="js/ie8.js"></script>
+    <![endif]-->
+    <script src="js/jquery.queryloader2.js"></script>    
     <script src="js/BaseUtil.min.js"></script>
     <script src="js/UserAgent.js"></script>
     <script src="js/purl.js"></script>
