@@ -1,7 +1,7 @@
-@import "compass/utilities/sprites";
 @import "compass/reset";
+@import "compass/utilities/sprites";
 @import "georgelynch/utils";
-@charset "utf-8";
+//@charset "utf-8";
 
 $home_card_width:1261;
 $home_card_height:790;
@@ -91,7 +91,9 @@ body{
     }
     
     
-    #nav_fb {
+    
+}
+#nav_fb {
         cursor: pointer;
         @include customDive($nav_nav_fb_left,$nav_nav_fb_top,$nav_nav_fb_width,$nav_nav_fb_height);
     }
@@ -111,8 +113,6 @@ body{
         cursor: pointer;
         @include customDive($nav_nav_home_left,$nav_nav_home_top,$nav_nav_home_width,$nav_nav_home_height);
     }
-}
-
 
 #card {
     overflow: hidden;

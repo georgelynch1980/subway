@@ -93,8 +93,8 @@ $(document).ready(function () {
     }
     var snow = function () {
 
-        for (var i = 0; i < flakeCount; i++) {
-            var flake = flakes[i],
+        for (var k = 0; k < flakeCount; k++) {
+            var flake = flakes[k],
                 x = 0,
                 y = 0,
                 minDist = 150,

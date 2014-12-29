@@ -1,5 +1,4 @@
-@charset "CP950";
-/* line 5, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 5, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,62 +19,62 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 22, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 24, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 26, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 28, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 30, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+  /* line 103, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 32, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
+/* line 116, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\reset\_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 /*
-範例
+ex.
 .title1 {
     @include bp(area-max) {
         content:'max';
         font-size: 72px;
     }
     @include bp(area-301) {
-        content:'小於1280px';
+        content:'<1280px';
         font-size: 48px;
     }
     @include bp(area-201) {
-        content:'小於980px';
+        content:'<980px';
         font-size: 36px;
     }
     @include bp(area-101) {
-        content:'小於767px';
+        content:'<767px';
         font-size: 20px;
     }
     @include bp(area-001) {
-        content:'小於480px';
+        content:'<480px';
         font-size: 12px;
     }
 }
@@ -125,51 +124,56 @@ body {
       position: absolute;
       top: 0px;
       margin-top: 0px; } }
-  /* line 94, ../sass/common.scss */
-  #nav #nav_fb {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    top: 0px;
-    left: 1009px;
-    width: 44px;
-    height: 52px; }
-  /* line 98, ../sass/common.scss */
-  #nav #nav_website {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    top: 0px;
-    left: 906px;
-    width: 103px;
-    height: 52px; }
-  /* line 102, ../sass/common.scss */
-  #nav #nav_top10 {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    top: 0px;
-    left: 811px;
-    width: 95px;
-    height: 52px; }
-  /* line 106, ../sass/common.scss */
-  #nav #nav_rule {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    top: 0px;
-    left: 730px;
-    width: 81px;
-    height: 52px; }
-  /* line 110, ../sass/common.scss */
-  #nav #nav_home {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    top: 0px;
-    left: 660px;
-    width: 70px;
-    height: 52px; }
+
+/* line 96, ../sass/common.scss */
+#nav_fb {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 1009px;
+  width: 44px;
+  height: 52px; }
+
+/* line 100, ../sass/common.scss */
+#nav_website {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 906px;
+  width: 103px;
+  height: 52px; }
+
+/* line 104, ../sass/common.scss */
+#nav_top10 {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 811px;
+  width: 95px;
+  height: 52px; }
+
+/* line 108, ../sass/common.scss */
+#nav_rule {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 730px;
+  width: 81px;
+  height: 52px; }
+
+/* line 112, ../sass/common.scss */
+#nav_home {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 660px;
+  width: 70px;
+  height: 52px; }
 
 /* line 117, ../sass/common.scss */
 #card {
@@ -289,38 +293,38 @@ body {
   background-image: url('../img/nav/buttons-safabef5659.png');
   background-repeat: no-repeat; }
 
-/* line 84, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+/* line 84, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
 .buttons-nav_fb {
   background-position: 0 0; }
-  /* line 59, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+  /* line 59, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
   .buttons-nav_fb:hover, .buttons-nav_fb.nav_fb-hover {
     background-position: 0 -52px; }
 
-/* line 84, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+/* line 84, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
 .buttons-nav_home {
   background-position: 0 -104px; }
-  /* line 59, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+  /* line 59, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
   .buttons-nav_home:hover, .buttons-nav_home.nav_home-hover {
     background-position: 0 -156px; }
 
-/* line 84, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+/* line 84, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
 .buttons-nav_rule {
   background-position: 0 -208px; }
-  /* line 59, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+  /* line 59, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
   .buttons-nav_rule:hover, .buttons-nav_rule.nav_rule-hover {
     background-position: 0 -260px; }
 
-/* line 84, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+/* line 84, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
 .buttons-nav_top10 {
   background-position: 0 -312px; }
-  /* line 59, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+  /* line 59, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
   .buttons-nav_top10:hover, .buttons-nav_top10.nav_top10-hover {
     background-position: 0 -364px; }
 
-/* line 84, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+/* line 84, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
 .buttons-nav_website {
   background-position: 0 -416px; }
-  /* line 59, C:\Ruby200\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
+  /* line 59, C:\Ruby200-x64\lib\ruby\gems\2.0.0\gems\compass-core-1.0.0.alpha.20\stylesheets\compass\utilities\sprites\_base.scss */
   .buttons-nav_website:hover, .buttons-nav_website.nav_website-hover {
     background-position: 0 -468px; }
 

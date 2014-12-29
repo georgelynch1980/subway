@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 @mixin customDive($x,$y,$width,$height){
 	position: absolute;
 	overflow: hidden;
@@ -7,7 +7,7 @@
 	width: #{$width}px;
 	height: #{$height}px;
 }
-//按鈕 .title1 {@include link-color($hover:green);}
+//button
 @mixin link-color($text:blue,$hover:red,$size:100%){
     color:$text;
     cursor: pointer;
@@ -15,28 +15,28 @@
     font-size: 100%;
 }
 
-//media query 由大break point至小break point
+//media query 
 /*
-範例
+ex.
 .title1 {
     @include bp(area-max) {
         content:'max';
         font-size: 72px;
     }
     @include bp(area-301) {
-        content:'小於1280px';
+        content:'<1280px';
         font-size: 48px;
     }
     @include bp(area-201) {
-        content:'小於980px';
+        content:'<980px';
         font-size: 36px;
     }
     @include bp(area-101) {
-        content:'小於767px';
+        content:'<767px';
         font-size: 20px;
     }
     @include bp(area-001) {
-        content:'小於480px';
+        content:'<480px';
         font-size: 12px;
     }
 }
