@@ -13,15 +13,16 @@ $home_title_height:319;
 $home_title_left:481;
 $home_title_top:117;
 
-$home_play_game_1up_width:96;
-$home_play_game_1up_height:126;
-$home_play_game_1up_left:370;
-$home_play_game_1up_top:215;
+$home_play_game_1up_width:101;
+$home_play_game_1up_height:144;
+$home_play_game_1up_left:370-3;
+$home_play_game_1up_top:215-16;
 
-$home_play_game_2up_width:99;
-$home_play_game_2up_height:122;
-$home_play_game_2up_left:818;
-$home_play_game_2up_top:219;
+//-28px -19px;
+$home_play_game_2up_width:143;
+$home_play_game_2up_height:143;
+$home_play_game_2up_left:818-28;
+$home_play_game_2up_top:219-19;
 
 $home_SP_width:213;
 $home_SP_height:78;
@@ -66,249 +67,30 @@ background-color: #880303;
     #play_game_1up {
         cursor: pointer;
         @include customDive($home_play_game_1up_left,$home_play_game_1up_top,$home_play_game_1up_width,$home_play_game_1up_height);
+        background-image: url('../img/home/buttons_1up.png');
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        a{
+            display: block;
+            width: 101px;
+            height: 142px;
+        }
     }
     #play_game_2up {
         cursor: pointer;
         @include customDive($home_play_game_2up_left,$home_play_game_2up_top,$home_play_game_2up_width,$home_play_game_2up_height);
+        background-image: url('../img/home/buttons_2up.png');
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        a{
+            display: block;
+            width: 101px;
+            height: 142px;
+        }
     }
     #SP {
         @include customDive($home_SP_left,$home_SP_top,$home_SP_width,$home_SP_height);
     }
 }
-@import "compass/utilities/sprites";
-@import "compass/reset";
-@import "georgelynch/utils";
-@charset "utf-8";
 
-
-$home_card_width:1261;
-$home_card_height:790;
-$home_card_left:15;
-$home_card_top:20;
-
-$home_logo_width:133;
-$home_logo_height:63;
-$home_logo_left:136;
-$home_logo_top:79;
-
-
-$nav_nav_fb_width:44;
-$nav_nav_fb_height:52;
-$nav_nav_fb_left:1009;
-$nav_nav_fb_top:0;
-$nav_nav_website_width:103;
-$nav_nav_website_height:52;
-$nav_nav_website_left:906;
-$nav_nav_website_top:0;
-$nav_nav_top10_width:95;
-$nav_nav_top10_height:52;
-$nav_nav_top10_left:811;
-$nav_nav_top10_top:0;
-$nav_nav_rule_width:81;
-$nav_nav_rule_height:52;
-$nav_nav_rule_left:730;
-$nav_nav_rule_top:0;
-$nav_nav_home_width:70;
-$nav_nav_home_height:52;
-$nav_nav_home_left:660;
-$nav_nav_home_top:0;
-
-/*
-body{
-    background-color: #880303;
-    min-width: 990px;
-    min-height: 680px;
-    //overflow: hidden;
-    @media screen and (max-width: 1114px)  { 
-        //overflow: auto;
-    }    
-    
-    @media screen and (max-height: 705px)  { 
-       //overflow: auto;
-    }
-
-}
-#preloading{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    background-color: #880303;
-    //background-color: transparent;
-    #loading{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 35px;
-        height: 35px;
-        margin-top: -17px;
-        margin-left: -17px;
-    }
-}
-
-#nav {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -358px;
-    margin-left: -522px;    
-    width: 1009px;
-    height: 52px;   
-    
-    @media screen and (max-width: 1000px)  { 
-        position: absolute;           
-        left: 0px;
-        margin-left: 0px;
-    }    
-    
-    @media screen and (max-height: 700px)  { 
-        position: absolute;
-        top: 0px;       
-        margin-top: 0px;
-    }
-    
-    
-    
-}
-#nav_fb {
-        cursor: pointer;
-        @include customDive($nav_nav_fb_left,$nav_nav_fb_top,$nav_nav_fb_width,$nav_nav_fb_height);
-    }
-    #nav_website {
-        cursor: pointer;
-        @include customDive($nav_nav_website_left,$nav_nav_website_top,$nav_nav_website_width,$nav_nav_website_height);
-    }
-    #nav_top10 {
-        cursor: pointer;
-        @include customDive($nav_nav_top10_left,$nav_nav_top10_top,$nav_nav_top10_width,$nav_nav_top10_height);
-    }
-    #nav_rule {
-        cursor: pointer;
-        @include customDive($nav_nav_rule_left,$nav_nav_rule_top,$nav_nav_rule_width,$nav_nav_rule_height);
-    }
-    #nav_home {
-        cursor: pointer;
-        @include customDive($nav_nav_home_left,$nav_nav_home_top,$nav_nav_home_width,$nav_nav_home_height);
-    }
-
-#card {
-    overflow: hidden;
-    @include customDive($home_card_left,$home_card_top,$home_card_width,$home_card_height);
-}
-
-#logo {
-    cursor: pointer;
-    @include customDive($home_logo_left,$home_logo_top,$home_logo_width,$home_logo_height);
-} 
-#snow{
-    width: 1260px;
-    height: 350px;
-    
-    .snow1{        
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px 0px;
-    }
-    .snow2{        
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -50px;       
-    }
-    .snow3{     
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -100px;        
-    }
-    
-    .snow4{        
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -150px;
-    }
-    .snow5{   
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -200px;
-    }
-    .snow6{       
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -250px; 
-    }
-    .snow7{     
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -300px; 
-    }
-    .snow8{   
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 50px;
-        height: 50px;
-        background-image: url('../img/common/snow.png');
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-position: 0px -350px; 
-    }
-}
-
-@import "nav/buttons/*.png";
-@include all-buttons-sprites;
-.nav_home_active{
-     background-position: 0 -156px;
-}
-.nav_top10_active{
-    background-position: 0 -364px;
-}
-
-.nav_rule_active{
-    background-position: 0 -260px;
-}
-
-
-*/
 
