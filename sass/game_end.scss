@@ -1,0 +1,70 @@
+@import "compass/utilities/sprites";
+@import "compass/reset";
+@mixin customDive($x,$y,$width,$height){
+	position: absolute;
+	overflow: hidden;
+	top:#{$y}px;
+	left:#{$x}px;
+	width: #{$width}px;
+	height: #{$height}px;
+}
+$game_1up_start_title_width:219;
+$game_1up_start_title_height:167;
+$game_1up_start_title_left:521;
+$game_1up_start_title_top:121;
+
+$game_1up_start_use_qrcode_width:330;
+$game_1up_start_use_qrcode_height:35;
+$game_1up_start_use_qrcode_left:463;
+$game_1up_start_use_qrcode_top:315;
+$game_1up_start_cycle_width:329;
+$game_1up_start_cycle_height:329;
+$game_1up_start_cycle_left:463;
+$game_1up_start_cycle_top:361;
+$game_1up_start_qrcode_container_width:227;
+$game_1up_start_qrcode_container_height:227;
+$game_1up_start_qrcode_container_left:514;
+$game_1up_start_qrcode_container_top:412;
+#game_end {
+    position: absolute;
+    width: 1280px;
+    height: 830px;    
+    left: 50%;
+    top: 50%;
+    margin-left: -640px;
+    margin-top: -415px;
+    //overflow: auto;
+    overflow: hidden;
+    @media screen and (max-width: 1048px)  { 
+        position: absolute;           
+        left: -116px;
+        margin-left: 0px;
+        
+        
+    }
+    
+    @media screen and (max-height: 717px)  { 
+        position: absolute;
+        top: -56px;        
+        margin-top: 0px; 
+        overflow: hidden;
+    }
+    #title {
+        @include customDive($game_1up_start_title_left,$game_1up_start_title_top,$game_1up_start_title_width,$game_1up_start_title_height);
+    }
+    
+    #game_end_contents{
+        text-align: center;
+        color: #f4cc8d;
+        font-size: 24px;
+        @include customDive($game_1up_start_title_left,$game_1up_start_title_top,$game_1up_start_title_width,$game_1up_start_title_height);
+        top: 400px;
+        left: 431px;
+        width: 400px;
+        height: 140px;
+        
+    }
+
+   
+}
+

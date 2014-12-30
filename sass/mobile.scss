@@ -418,6 +418,7 @@ $mobile_logo_top:21;
         //@include customDive($mobile_m_2up_game_hand_left,$mobile_m_2up_game_hand_top,$mobile_m_2up_game_hand_width,$mobile_m_2up_game_hand_height);
     }
 }
+
 #mobile #m_2up_game_time {
     font-size: 53px;
     text-align: center;
@@ -670,6 +671,7 @@ body{
     left: 38px;
     
     width: 565px;
+    
     .m_coupon_list_item{
         margin-top: 31px;
         @include clearfix;
@@ -687,11 +689,20 @@ body{
         .m_coupon_list_item_id{            
             position: absolute;
             top: 84px;
-            left: 220px;
+            left: 223px;
             
             font-size: 18px;
             width: 270px;
             color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .m_coupon_list_item_date{
+            position: absolute;
+            top: 15px;
+            left: 223px;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 24px;
         }
         .m_coupon_list_item_btn{
             float: right;

@@ -240,7 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 382px;
     height: 370px; }
 
-/* line 421, ../sass/mobile.scss */
+/* line 422, ../sass/mobile.scss */
 #mobile #m_2up_game_time {
   font-size: 53px;
   text-align: center;
@@ -254,7 +254,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 161px;
   height: 52px; }
 
-/* line 429, ../sass/mobile.scss */
+/* line 430, ../sass/mobile.scss */
 #mobile #m_2up_game_contents {
   position: absolute;
   overflow: hidden;
@@ -263,7 +263,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 384px;
   height: 121px; }
 
-/* line 432, ../sass/mobile.scss */
+/* line 433, ../sass/mobile.scss */
 #mobile #m_2up_game_number {
   font-size: 149px;
   text-align: center;
@@ -276,7 +276,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 243px;
   height: 200px; }
 
-/* line 439, ../sass/mobile.scss */
+/* line 440, ../sass/mobile.scss */
 #mobile #m_2up_game_ico {
   position: absolute;
   overflow: hidden;
@@ -285,7 +285,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 268px;
   height: 268px; }
 
-/* line 442, ../sass/mobile.scss */
+/* line 443, ../sass/mobile.scss */
 #mobile #m_2up_result_me_bg {
   position: absolute;
   overflow: hidden;
@@ -294,7 +294,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 640px;
   height: 671px; }
 
-/* line 445, ../sass/mobile.scss */
+/* line 446, ../sass/mobile.scss */
 #mobile #m_2up_result_me_title {
   position: absolute;
   overflow: hidden;
@@ -303,7 +303,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 266px;
   height: 34px; }
 
-/* line 448, ../sass/mobile.scss */
+/* line 449, ../sass/mobile.scss */
 #mobile #m_2up_result_me_img {
   background-size: cover;
   border: 1px solid #f8d794;
@@ -315,7 +315,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 76px;
   height: 76px; }
 
-/* line 455, ../sass/mobile.scss */
+/* line 456, ../sass/mobile.scss */
 #fb_name {
   position: absolute;
   top: 50px;
@@ -323,7 +323,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #f8d794;
   font-size: 18px; }
 
-/* line 462, ../sass/mobile.scss */
+/* line 463, ../sass/mobile.scss */
 #mobile #m_2up_result_me_friend {
   position: absolute;
   overflow: hidden;
@@ -332,7 +332,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 477px;
   height: 78px; }
 
-/* line 465, ../sass/mobile.scss */
+/* line 466, ../sass/mobile.scss */
 #mobile #m_2up_result_me_number {
   text-align: center;
   font-size: 54px;
@@ -346,7 +346,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 250px;
   height: 50px; }
 
-/* line 473, ../sass/mobile.scss */
+/* line 474, ../sass/mobile.scss */
 #mobile #m_2up_result_me_coupon {
   position: absolute;
   overflow: hidden;
@@ -355,7 +355,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 476, ../sass/mobile.scss */
+/* line 477, ../sass/mobile.scss */
 #mobile #m_2up_result_me_total_number {
   text-align: center;
   font-size: 217px;
@@ -369,7 +369,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 354px;
   height: 200px; }
 
-/* line 484, ../sass/mobile.scss */
+/* line 485, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_bg {
   position: absolute;
   overflow: hidden;
@@ -378,7 +378,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 640px;
   height: 671px; }
 
-/* line 487, ../sass/mobile.scss */
+/* line 488, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_title {
   position: absolute;
   overflow: hidden;
@@ -387,7 +387,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 266px;
   height: 34px; }
 
-/* line 490, ../sass/mobile.scss */
+/* line 491, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_img {
   background-size: cover;
   border: 1px solid #f8d794;
@@ -399,7 +399,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 76px;
   height: 76px; }
 
-/* line 496, ../sass/mobile.scss */
+/* line 497, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_friend {
   position: absolute;
   overflow: hidden;
@@ -408,7 +408,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 477px;
   height: 78px; }
 
-/* line 499, ../sass/mobile.scss */
+/* line 500, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_number {
   text-align: center;
   font-size: 54px;
@@ -422,7 +422,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 250px;
   height: 50px; }
 
-/* line 507, ../sass/mobile.scss */
+/* line 508, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_total_numbe {
   text-align: center;
   font-size: 217px;
@@ -436,7 +436,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 354px;
   height: 200px; }
 
-/* line 515, ../sass/mobile.scss */
+/* line 516, ../sass/mobile.scss */
 #mobile #m_2up_result_friend_contents {
   position: absolute;
   overflow: hidden;
@@ -445,7 +445,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 502px;
   height: 114px; }
 
-/* line 518, ../sass/mobile.scss */
+/* line 519, ../sass/mobile.scss */
 #mobile #m_2up_fail_bg {
   position: absolute;
   overflow: hidden;
@@ -454,7 +454,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 640px;
   height: 671px; }
 
-/* line 521, ../sass/mobile.scss */
+/* line 522, ../sass/mobile.scss */
 #mobile #m_2up_fail_title {
   position: absolute;
   overflow: hidden;
@@ -463,7 +463,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 266px;
   height: 34px; }
 
-/* line 524, ../sass/mobile.scss */
+/* line 525, ../sass/mobile.scss */
 #mobile #m_2up_fail_img {
   background-size: cover;
   border: 1px solid #f8d794;
@@ -475,7 +475,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 78px;
   height: 78px; }
 
-/* line 530, ../sass/mobile.scss */
+/* line 531, ../sass/mobile.scss */
 #mobile #m_2up_fail_friend {
   position: absolute;
   overflow: hidden;
@@ -484,7 +484,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 477px;
   height: 78px; }
 
-/* line 533, ../sass/mobile.scss */
+/* line 534, ../sass/mobile.scss */
 #mobile #m_2up_fail_number {
   text-align: center;
   font-size: 54px;
@@ -498,7 +498,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 250px;
   height: 50px; }
 
-/* line 541, ../sass/mobile.scss */
+/* line 542, ../sass/mobile.scss */
 #mobile #m_2up_fail_total_number {
   text-align: center;
   font-size: 217px;
@@ -512,7 +512,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 354px;
   height: 200px; }
 
-/* line 549, ../sass/mobile.scss */
+/* line 550, ../sass/mobile.scss */
 #mobile #m_2up_fail_total_again {
   position: absolute;
   overflow: hidden;
@@ -521,7 +521,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 552, ../sass/mobile.scss */
+/* line 553, ../sass/mobile.scss */
 #mobile #m_2up_fail_total_remark {
   color: #f8d794;
   text-align: center;
@@ -534,7 +534,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 197px;
   height: 23px; }
 
-/* line 559, ../sass/mobile.scss */
+/* line 560, ../sass/mobile.scss */
 #mobile #m_1up_home_title {
   position: absolute;
   overflow: hidden;
@@ -543,7 +543,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 375px;
   height: 287px; }
 
-/* line 562, ../sass/mobile.scss */
+/* line 563, ../sass/mobile.scss */
 #mobile #m_1up_home_contents {
   position: absolute;
   overflow: hidden;
@@ -552,7 +552,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 493px;
   height: 67px; }
 
-/* line 565, ../sass/mobile.scss */
+/* line 566, ../sass/mobile.scss */
 #mobile #m_1up_home_go {
   position: absolute;
   overflow: hidden;
@@ -561,7 +561,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 568, ../sass/mobile.scss */
+/* line 569, ../sass/mobile.scss */
 #mobile #m_1up_home_pd {
   position: absolute;
   overflow: hidden;
@@ -570,7 +570,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 602px;
   height: 296px; }
 
-/* line 571, ../sass/mobile.scss */
+/* line 572, ../sass/mobile.scss */
 #mobile #m_1up_game_bg {
   position: absolute;
   overflow: hidden;
@@ -579,7 +579,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 640px;
   height: 671px; }
 
-/* line 574, ../sass/mobile.scss */
+/* line 575, ../sass/mobile.scss */
 #mobile #m_1up_game_start_contents {
   position: absolute;
   overflow: hidden;
@@ -588,7 +588,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 425px;
   height: 126px; }
 
-/* line 577, ../sass/mobile.scss */
+/* line 578, ../sass/mobile.scss */
 #mobile #m_1up_game_start_start {
   position: absolute;
   overflow: hidden;
@@ -597,7 +597,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 580, ../sass/mobile.scss */
+/* line 581, ../sass/mobile.scss */
 #mobile #m_1up_game_number {
   position: absolute;
   overflow: hidden;
@@ -606,7 +606,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 118px;
   height: 200px; }
 
-/* line 583, ../sass/mobile.scss */
+/* line 584, ../sass/mobile.scss */
 #mobile #m_1up_game_time {
   position: absolute;
   overflow: hidden;
@@ -615,7 +615,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 161px;
   height: 52px; }
 
-/* line 586, ../sass/mobile.scss */
+/* line 587, ../sass/mobile.scss */
 #mobile #m_1up_game_contents {
   position: absolute;
   overflow: hidden;
@@ -624,7 +624,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 433px;
   height: 81px; }
 
-/* line 589, ../sass/mobile.scss */
+/* line 590, ../sass/mobile.scss */
 #mobile #m_1up_game_hand {
   position: absolute;
   overflow: hidden;
@@ -633,7 +633,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 382px;
   height: 370px; }
 
-/* line 592, ../sass/mobile.scss */
+/* line 593, ../sass/mobile.scss */
 #mobile #m_1up_game_success_coupon {
   position: absolute;
   overflow: hidden;
@@ -642,7 +642,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 595, ../sass/mobile.scss */
+/* line 596, ../sass/mobile.scss */
 #mobile #m_1up_game_fail_again {
   position: absolute;
   overflow: hidden;
@@ -651,7 +651,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 346px;
   height: 63px; }
 
-/* line 598, ../sass/mobile.scss */
+/* line 599, ../sass/mobile.scss */
 #mobile #m_1up_game_fail_coupon {
   color: #f8d794;
   text-align: center;
@@ -664,7 +664,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 280px;
   height: 30px; }
 
-/* line 605, ../sass/mobile.scss */
+/* line 606, ../sass/mobile.scss */
 #mobile #m_otc_home_title {
   position: absolute;
   overflow: hidden;
@@ -673,7 +673,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 336px;
   height: 256px; }
 
-/* line 608, ../sass/mobile.scss */
+/* line 609, ../sass/mobile.scss */
 #mobile #m_otc_home_contents {
   position: absolute;
   overflow: hidden;
@@ -682,7 +682,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 388px;
   height: 182px; }
 
-/* line 611, ../sass/mobile.scss */
+/* line 612, ../sass/mobile.scss */
 #mobile #m_otc_home_1up {
   position: absolute;
   overflow: hidden;
@@ -691,7 +691,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 143px;
   height: 188px; }
 
-/* line 614, ../sass/mobile.scss */
+/* line 615, ../sass/mobile.scss */
 #mobile #m_otc_home_2up {
   position: absolute;
   overflow: hidden;
@@ -700,7 +700,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 147px;
   height: 182px; }
 
-/* line 617, ../sass/mobile.scss */
+/* line 618, ../sass/mobile.scss */
 #mobile #m_2up_coupon_remark {
   position: absolute;
   overflow: hidden;
@@ -709,7 +709,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 591px;
   height: 26px; }
 
-/* line 620, ../sass/mobile.scss */
+/* line 621, ../sass/mobile.scss */
 #mobile #m_2up_coupon_coupon1 {
   position: absolute;
   overflow: hidden;
@@ -718,7 +718,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 548px;
   height: 548px; }
 
-/* line 623, ../sass/mobile.scss */
+/* line 624, ../sass/mobile.scss */
 #mobile #m_2up_coupon_coupon2 {
   position: absolute;
   overflow: hidden;
@@ -727,7 +727,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 548px;
   height: 548px; }
 
-/* line 626, ../sass/mobile.scss */
+/* line 627, ../sass/mobile.scss */
 #mobile #m_1up_coupon_coupon {
   position: absolute;
   overflow: hidden;
@@ -736,7 +736,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 594px;
   height: 548px; }
 
-/* line 629, ../sass/mobile.scss */
+/* line 630, ../sass/mobile.scss */
 #mobile #m_2up_coupon_use {
   position: absolute;
   overflow: hidden;
@@ -745,7 +745,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 254px;
   height: 51px; }
 
-/* line 632, ../sass/mobile.scss */
+/* line 633, ../sass/mobile.scss */
 #mobile #m_2up_coupon_add {
   position: absolute;
   overflow: hidden;
@@ -754,7 +754,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 115px;
   height: 115px; }
 
-/* line 635, ../sass/mobile.scss */
+/* line 636, ../sass/mobile.scss */
 #mobile #m_2up_coupon_comfirm_use {
   position: absolute;
   overflow: hidden;
@@ -763,7 +763,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 184px;
   height: 51px; }
 
-/* line 638, ../sass/mobile.scss */
+/* line 639, ../sass/mobile.scss */
 #mobile #m_2up_coupon_comfirm_cancle {
   position: absolute;
   overflow: hidden;
@@ -772,7 +772,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 184px;
   height: 51px; }
 
-/* line 641, ../sass/mobile.scss */
+/* line 642, ../sass/mobile.scss */
 #mobile #m_2up_coupon_comfirm_coupon1 {
   position: absolute;
   overflow: hidden;
@@ -781,7 +781,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 548px;
   height: 548px; }
 
-/* line 644, ../sass/mobile.scss */
+/* line 645, ../sass/mobile.scss */
 #mobile #m_2up_coupon_comfirm_coupon2 {
   position: absolute;
   overflow: hidden;
@@ -790,7 +790,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 548px;
   height: 548px; }
 
-/* line 647, ../sass/mobile.scss */
+/* line 648, ../sass/mobile.scss */
 #mobile #m_1up_coupon_comfirm_coupon {
   position: absolute;
   overflow: hidden;
@@ -799,7 +799,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 548px;
   height: 548px; }
 
-/* line 650, ../sass/mobile.scss */
+/* line 651, ../sass/mobile.scss */
 #mobile #m_coupon_list_coupon1 {
   position: absolute;
   overflow: hidden;
@@ -808,7 +808,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 424px;
   height: 124px; }
 
-/* line 653, ../sass/mobile.scss */
+/* line 654, ../sass/mobile.scss */
 #mobile #m_coupon_list_use {
   position: absolute;
   overflow: hidden;
@@ -817,7 +817,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 115px;
   height: 115px; }
 
-/* line 656, ../sass/mobile.scss */
+/* line 657, ../sass/mobile.scss */
 #mobile #m_coupon_list_used {
   position: absolute;
   overflow: hidden;
@@ -826,22 +826,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 111px;
   height: 111px; }
 
-/* line 659, ../sass/mobile.scss */
+/* line 660, ../sass/mobile.scss */
 #m_coupon_list_remark {
   margin: 35px; }
 
-/* line 662, ../sass/mobile.scss */
+/* line 663, ../sass/mobile.scss */
 body {
   background-image: url("../img/mobile/bg.jpg");
   background-repeat: repeat-y; }
 
-/* line 667, ../sass/mobile.scss */
+/* line 668, ../sass/mobile.scss */
 #m_coupon_list_container {
   position: absolute;
   top: 195px;
   left: 38px;
   width: 565px; }
-  /* line 673, ../sass/mobile.scss */
+  /* line 675, ../sass/mobile.scss */
   #m_coupon_list_container .m_coupon_list_item {
     margin-top: 31px;
     overflow: hidden;
@@ -850,31 +850,40 @@ body {
     border-bottom-style: solid;
     border-bottom-color: #f1c286;
     border-bottom-width: 1px; }
-    /* line 680, ../sass/mobile.scss */
+    /* line 682, ../sass/mobile.scss */
     #m_coupon_list_container .m_coupon_list_item .m_coupon_list_item_img {
       float: left;
       position: relative;
       top: 0px;
       left: 0px; }
-    /* line 687, ../sass/mobile.scss */
+    /* line 689, ../sass/mobile.scss */
     #m_coupon_list_container .m_coupon_list_item .m_coupon_list_item_id {
       position: absolute;
       top: 84px;
-      left: 220px;
+      left: 223px;
       font-size: 18px;
       width: 270px;
-      color: #FFF; }
-    /* line 696, ../sass/mobile.scss */
+      color: #FFF;
+      font-family: Arial, Helvetica, sans-serif; }
+    /* line 699, ../sass/mobile.scss */
+    #m_coupon_list_container .m_coupon_list_item .m_coupon_list_item_date {
+      position: absolute;
+      top: 15px;
+      left: 223px;
+      color: #FFF;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px; }
+    /* line 707, ../sass/mobile.scss */
     #m_coupon_list_container .m_coupon_list_item .m_coupon_list_item_btn {
       float: right;
       background-image: url("../img/mobile/m_coupon_list_use.png");
       width: 115px;
       height: 115px; }
-    /* line 702, ../sass/mobile.scss */
+    /* line 713, ../sass/mobile.scss */
     #m_coupon_list_container .m_coupon_list_item .couponuse {
       background-image: url("../img/mobile/m_coupon_list_used.png"); }
 
-/* line 707, ../sass/mobile.scss */
+/* line 718, ../sass/mobile.scss */
 #mobile #m_coupon_list_title {
   position: absolute;
   overflow: hidden;
@@ -883,7 +892,7 @@ body {
   width: 565px;
   height: 69px; }
 
-/* line 710, ../sass/mobile.scss */
+/* line 721, ../sass/mobile.scss */
 #mobile #m_facebook_share_share {
   position: absolute;
   overflow: hidden;
@@ -892,7 +901,7 @@ body {
   width: 254px;
   height: 51px; }
 
-/* line 713, ../sass/mobile.scss */
+/* line 724, ../sass/mobile.scss */
 #mobile #m_facebook_share_contents {
   position: absolute;
   overflow: hidden;
@@ -901,7 +910,7 @@ body {
   width: 548px;
   height: 548px; }
 
-/* line 716, ../sass/mobile.scss */
+/* line 727, ../sass/mobile.scss */
 #mobile #nav_exchange {
   position: absolute;
   overflow: hidden;
@@ -910,7 +919,7 @@ body {
   width: 129px;
   height: 37px; }
 
-/* line 719, ../sass/mobile.scss */
+/* line 730, ../sass/mobile.scss */
 #mobile #nav_home {
   position: absolute;
   overflow: hidden;
@@ -919,7 +928,7 @@ body {
   width: 129px;
   height: 37px; }
 
-/* line 722, ../sass/mobile.scss */
+/* line 733, ../sass/mobile.scss */
 #mobile #logo {
   position: absolute;
   overflow: hidden;
