@@ -57,12 +57,12 @@ $(document).ready(function () {
     _rotation($("#product"), $('body').width() * 0.5, $('body').height() * 0.5, 7);
 
     $('body').mousemove(function (event) {
-        _rotation($("#card"), event.pageX, event.pageY, 15);
-        _rotation($("#product"), event.pageX, event.pageY, 7);
+        //_rotation($("#card"), event.pageX, event.pageY, 15);
+        //_rotation($("#product"), event.pageX, event.pageY, 7);
     });
 
     var flakes = [],
-        flakeCount = 250,
+        flakeCount = 80,
         mX = -100,
         mY = -100,
         snow_width = 1260,
@@ -128,7 +128,7 @@ $(document).ready(function () {
             
             
 
-            if (flake.y >= snow_height - getRandomInt(90,180) || flake.y <= 0) {
+            if (flake.y >= snow_height - getRandomInt(120,210) || flake.y <= 0) {
                 if (flake.opacity > 0) {
                     flake.opacity = flake.opacity - 0.01;
                 };
